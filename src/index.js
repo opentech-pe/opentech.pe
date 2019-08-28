@@ -5,6 +5,7 @@ import { Router } from "@reach/router";
 import { Global, jsx } from "@emotion/core";
 
 import Home from "./views/home";
+import Navbar from "./components/navbar";
 
 const global = {
   body: {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Global styles={global} />
+      <Navbar />
       <Router>
         <Home path="/" />
       </Router>
