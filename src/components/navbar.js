@@ -2,7 +2,7 @@
 import { jsx } from "@emotion/core";
 import { Link } from "@reach/router";
 
-import { Header, Logo, Nav } from "../components/ui";
+import { Bar, Logo, Nav } from "../components/ui";
 
 function ActiveLink(props) {
   function getProps({ isCurrent }) {
@@ -17,26 +17,30 @@ function ActiveLink(props) {
 
 function Navbar() {
   return (
-    <Header>
-      <Logo>
-        <Link to="/">
-          Open<span>Tech</span>
-        </Link>
-      </Logo>
-      <Nav>
-        <ul>
-          <li>
-            <ActiveLink to="/eventos-anteriores">Eventos Anteriores</ActiveLink>
-          </li>
-          <li>
-            <a href="https://github.com/opentech-pe">
-              <img src="/assets/img/github.gif" alt="github" />
-              Github
-            </a>
-          </li>
-        </ul>
-      </Nav>
-    </Header>
+    <header>
+      <Bar>
+        <Logo>
+          <Link to="/">
+            Open<span>Tech</span>
+          </Link>
+        </Logo>
+        <Nav>
+          <ul>
+            <li>
+              <ActiveLink to="/eventos-anteriores">
+                Eventos Anteriores
+              </ActiveLink>
+            </li>
+            <li>
+              <a href="https://github.com/opentech-pe">
+                <img src="/assets/img/github.gif" alt="github" />
+                Github
+              </a>
+            </li>
+          </ul>
+        </Nav>
+      </Bar>
+    </header>
   );
 }
 

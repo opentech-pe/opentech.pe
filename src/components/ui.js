@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
 
-function Header({ styles, ...props }) {
+function Bar({ styles, ...props }) {
   return (
-    <header
+    <div
       {...props}
       css={{
         display: "flex",
@@ -93,4 +93,44 @@ function Nav({ styles, ...props }) {
   );
 }
 
-export { Header, Logo, Nav };
+function Sentence({ styles, ...props }) {
+  return (
+    <h2
+      {...props}
+      css={{
+        textAlign: "center",
+        maxWidth: 975,
+        fontSize: "48px",
+        lineHeight: "50px",
+        "@media (max-width: 768px)": {
+          fontSize: 18,
+          lineHeight: "25px",
+          margin: "15px 5px"
+        },
+        ...styles
+      }}
+    >
+      {props.children}
+    </h2>
+  );
+}
+
+function SubTitle({ styles, ...props }) {
+  return (
+    <h2
+      {...props}
+      css={{
+        fontSize: 30,
+        color: "#3498DB",
+        "@media (max-width: 768px)": {
+          fontSize: 16
+        },
+        ...styles
+      }}
+    >
+      {props.children}
+    </h2>
+  );
+}
+
+export { Bar, Logo, Nav, Sentence, SubTitle };
