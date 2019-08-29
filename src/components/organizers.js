@@ -1,69 +1,73 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
 
-import { SubTitle } from "./ui";
+import { SubTitle, Organizer, Section } from "./ui";
 import { Center } from "./helpers";
 
-const container = {
-  padding: "30px 45px",
-  background: "#F2F3F5",
-  span: {
-    fontSize: 10,
-    lineHeight: "20px",
-    maxWidth: "600px",
-    textAlign: "center",
-    color: "#999"
-  },
-  a: {
-    textDecoration: "none",
-    fontSize: 10,
-    lineHeight: "20px",
-    color: "#999",
-    marginRight: 5
-  }
+const organizersContent = {
+  display: "flex",
+  justifyContent: "space-around",
+  alignItems: "center",
+  margin: 30
 };
 
 function Organizers() {
   return (
-    <section css={container}>
-      <Center>
-        <SubTitle>Organizadores</SubTitle>
-        <span>Las siguiente personas hacen posible OpenTech</span>
-      </Center>
-      <div
-        css={{
-          display: "flex",
-          justifyContent: "space-around",
-          alignItems: "baseline",
-          margin: "100px"
-        }}
-      >
-        <div
-          css={{
-            display: "flex",
-            flexDirection: "column"
-          }}
-        >
-          <h3 css={{ marginBottom: 2 }}>Paulo Tijero</h3>
-          <div css={{ textAlign: "end" }}>
-            <a href="#">Github</a>
-            <a href="#">Twitter</a>
-          </div>
+    <Section styles={{ background: "#F2F3F5" }}>
+      <section>
+        <Center>
+          <SubTitle>Organizadores</SubTitle>
+          <span>Las siguiente personas hacen posible OpenTech</span>
+        </Center>
+        <div css={organizersContent}>
+          <Organizer>
+            <h3>Paulo Tijero</h3>
+            <div>
+              <a
+                href="https://github.com/paulotijero"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://twitter.com/paulotijero"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+            </div>
+          </Organizer>
+          <Organizer>
+            <h3>Jhon Fitzgerald</h3>
+            <div>
+              <a
+                href="https://github.com/jhonfitzgerald"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://twitter.com/FitzgeraldOrtiz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+            </div>
+          </Organizer>
+          {/* <Organizer>
+            <h3>Nombre Apellido</h3>
+            <div>
+              <a href="#">Github</a>
+              <a href="#">Twitter</a>
+            </div>
+          </Organizer> */}
         </div>
-        <div
-          css={{
-            display: "flex",
-            flexDirection: "column"
-          }}
-        >
-          <h3 css={{ marginBottom: 2 }}>Jhon Fitzgerald</h3>
-          <div css={{ textAlign: "end" }}>
-            <a href="#">Github</a>
-            <a href="#">Twitter</a>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </Section>
   );
 }
 

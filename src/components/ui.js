@@ -121,6 +121,8 @@ function SubTitle({ styles, ...props }) {
       {...props}
       css={{
         fontSize: 30,
+        textAlign: "center",
+        lineHeight: "25px",
         color: "#3498DB",
         "@media (max-width: 768px)": {
           fontSize: 16
@@ -133,4 +135,107 @@ function SubTitle({ styles, ...props }) {
   );
 }
 
-export { Bar, Logo, Nav, Sentence, SubTitle };
+function Section({ styles, ...props }) {
+  return (
+    <section
+      {...props}
+      css={{
+        padding: "5rem 1rem",
+        section: {
+          margin: "0 auto",
+          maxWidth: "80rem"
+        },
+        span: {
+          fontSize: 10,
+          lineHeight: "20px",
+          maxWidth: "600px",
+          textAlign: "center",
+          color: "#999"
+        },
+        ...styles
+      }}
+    />
+  );
+}
+
+function Info({ styles, ...props }) {
+  return (
+    <div
+      {...props}
+      css={{
+        display: "flex",
+        justifyContent: "space-around",
+        alignItems: "center",
+        p: {
+          maxWidth: 635
+        },
+        a: {
+          color: "currentColor",
+          textAlign: "center",
+          lineHeight: "25px"
+        },
+        div: {
+          ":first-of-type": {
+            a: {
+              marginTop: "30px"
+            }
+          },
+          ":last-child": {
+            a: {
+              marginTop: "5px"
+            }
+          }
+        },
+        "@media (max-width: 768px)": {
+          flexDirection: "column",
+          a: {
+            fontSize: 10,
+            lineHeight: "25px"
+          },
+          div: {
+            ":first-of-type": {
+              a: {
+                margin: "5px 0"
+              }
+            },
+            ":last-child": {
+              a: {
+                margin: "5px 0"
+              }
+            }
+          }
+        },
+        ...styles
+      }}
+    />
+  );
+}
+
+function Organizer({ styles, ...props }) {
+  return (
+    <div
+      {...props}
+      css={{
+        display: "flex",
+        flexDirection: "column",
+        textAlign: "end",
+        h3: {
+          marginBottom: 2
+        },
+        a: {
+          textDecoration: "none",
+          fontSize: 10,
+          lineHeight: "20px",
+          color: "#999",
+          marginRight: 5
+        },
+        "a:hover": {
+          color: "#3498DB"
+        },
+        ...styles
+      }}
+    />
+  );
+}
+
+export { Bar, Logo, Nav, Sentence, SubTitle, Info, Organizer, Section };
