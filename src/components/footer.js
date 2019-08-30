@@ -25,11 +25,17 @@ function Footer() {
         <Nav styles={{ a: { color: "#fff !important" } }}>
           <ul>
             <li>
-              <a href="https://github.com/opentech-pe">Dar una charla</a>
+              <a
+                href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+."
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Dar una charla
+              </a>
             </li>
-            <li>
+            {/* <li>
               <ActiveLink to="/previous-events">Eventos Anteriores</ActiveLink>
-            </li>
+            </li> */}
             <li>
               <ActiveLink to="/code-of-conduct">Código de conducta</ActiveLink>
             </li>

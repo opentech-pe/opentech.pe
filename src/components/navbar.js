@@ -26,9 +26,9 @@ function Navbar() {
         </Logo>
         <Nav>
           <ul>
-            <li>
+            {/* <li>
               <ActiveLink to="/previous-events">Eventos Anteriores</ActiveLink>
-            </li>
+            </li> */}
             <li>
               <a href="https://github.com/opentech-pe">
                 <img src="/assets/img/github.gif" alt="github" />
