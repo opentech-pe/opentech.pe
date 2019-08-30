@@ -5,6 +5,7 @@ import { Router } from "@reach/router";
 import { Global, jsx } from "@emotion/core";
 
 import Home from "./views/home";
+import CodeOfConduct from "./views/code-of-conduct";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
@@ -22,6 +23,7 @@ function App() {
       <Navbar />
       <Router>
         <Home path="/" />
+        <CodeOfConduct path="/code-of-conduct" />
       </Router>
       <Footer />
     </>
