@@ -1,7 +1,7 @@
 ---
 name: Propuesta de charla
 about: Usa esta plantilla para proponer una charla en OpenTech
-title: ''
+title: Título de tu charla . . .
 labels: cfp
 assignees: jhonfitzgerald, paulotijero
 
