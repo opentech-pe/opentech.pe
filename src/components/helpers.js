@@ -22,8 +22,7 @@ function SpaceAround({ styles, ...props }) {
       css={{
         display: "flex",
         justifyContent: "space-around",
-        alignItems: "center",
-        margin: 30
+        alignItems: "center"
       }}
     />
   );

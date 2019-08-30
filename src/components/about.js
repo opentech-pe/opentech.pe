@@ -15,8 +15,7 @@ const container = {
     padding: "30px 20px",
     p: {
       fontSize: 10,
-      lineHeight: "20px",
-      textAlign: "inherit"
+      lineHeight: "20px"
     }
   }
 };

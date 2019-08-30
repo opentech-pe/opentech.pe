@@ -164,7 +164,7 @@ function Info({ styles, ...props }) {
   return (
     <SpaceAround
       {...props}
-      styles={{
+      css={{
         p: {
           maxWidth: 635
         },
@@ -215,6 +215,7 @@ function Organizer({ styles, ...props }) {
     <SpaceAround
       {...props}
       css={{
+        marginTop: 30,
         textAlign: "end",
         h3: {
           marginBottom: 2
@@ -249,6 +250,7 @@ function Brand({ styles, ...props }) {
     <SpaceAround
       {...props}
       css={{
+        marginTop: 30,
         a: {
           height: 200,
           width: 200,
