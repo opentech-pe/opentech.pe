@@ -6,6 +6,7 @@ import { Global, jsx } from "@emotion/core";
 
 import Home from "./views/home";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 const global = {
   body: {
@@ -22,6 +23,7 @@ function App() {
       <Router>
         <Home path="/" />
       </Router>
+      <Footer />
     </>
   );
 }

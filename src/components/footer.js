@@ -8,38 +8,36 @@ function ActiveLink(props) {
   function getProps({ isCurrent }) {
     return {
       style: {
-        color: isCurrent ? "#3498DB" : "currentColor"
+        color: isCurrent ? "#000" : "#fff"
       }
     };
   }
   return <Link {...props} getProps={getProps} />;
 }
 
-function Navbar() {
+function Footer() {
   return (
-    <header>
+    <footer css={{ background: "#3498DB" }}>
       <Bar>
-        <Logo>
-          <Link to="/">
-            Open<span>Tech</span>
-          </Link>
+        <Logo styles={{ color: "#fff" }}>
+          <Link to="/">OpenTech</Link>
         </Logo>
-        <Nav>
+        <Nav styles={{ a: { color: "#fff !important" } }}>
           <ul>
+            <li>
+              <a href="https://github.com/opentech-pe">Dar una charla</a>
+            </li>
             <li>
               <ActiveLink to="/previous-events">Eventos Anteriores</ActiveLink>
             </li>
             <li>
-              <a href="https://github.com/opentech-pe">
-                <img src="/assets/img/github.gif" alt="github" />
-                Github
-              </a>
+              <ActiveLink to="/code-of-conduct">Código de conducta</ActiveLink>
             </li>
           </ul>
         </Nav>
       </Bar>
-    </header>
+    </footer>
   );
 }
 
-export default Navbar;
+export default Footer;
