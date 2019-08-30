@@ -45,7 +45,13 @@ function About() {
               formar parte de nuestra comunidad en Slack donde puedes
               encontrarnos todos los días para seguir hablando.
             </p>
-            <a href="#">Únete a nuestra comunidad</a>
+            <a
+              href="https://hola-opentech.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Únete a nuestra comunidad
+            </a>
           </Center>
           <Center>
             <SubTitle styles={{ fontSize: 18, textAlign: "center" }}>
