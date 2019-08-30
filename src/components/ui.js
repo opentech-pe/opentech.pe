@@ -1,6 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
 
+import { SpaceAround } from "./helpers";
+
 function Bar({ styles, ...props }) {
   return (
     <div
@@ -160,12 +162,9 @@ function Section({ styles, ...props }) {
 
 function Info({ styles, ...props }) {
   return (
-    <div
+    <SpaceAround
       {...props}
-      css={{
-        display: "flex",
-        justifyContent: "space-around",
-        alignItems: "center",
+      styles={{
         p: {
           maxWidth: 635
         },
@@ -213,11 +212,9 @@ function Info({ styles, ...props }) {
 
 function Organizer({ styles, ...props }) {
   return (
-    <div
+    <SpaceAround
       {...props}
       css={{
-        display: "flex",
-        flexDirection: "column",
         textAlign: "end",
         h3: {
           marginBottom: 2
@@ -232,10 +229,51 @@ function Organizer({ styles, ...props }) {
         "a:hover": {
           color: "#3498DB"
         },
+        "@media (max-width: 768px)": {
+          margin: 0,
+          marginTop: 10,
+          flexDirection: "column",
+          textAlign: "center",
+          h3: {
+            fontSize: 17
+          }
+        },
         ...styles
       }}
     />
   );
 }
 
-export { Bar, Logo, Nav, Sentence, SubTitle, Info, Organizer, Section };
+function Brand({ styles, ...props }) {
+  return (
+    <SpaceAround
+      {...props}
+      css={{
+        a: {
+          height: 200,
+          width: 200,
+          position: "relative"
+        },
+        img: {
+          height: "100%",
+          width: "100%",
+          objectFit: "contain",
+          position: "absolute",
+          top: 0,
+          left: 0
+        },
+        "@media (max-width: 768px)": {
+          margin: 0,
+          marginTop: 27,
+          flexDirection: "column",
+          a: {
+            height: 150,
+            width: 150
+          }
+        }
+      }}
+    />
+  );
+}
+
+export { Bar, Logo, Nav, Sentence, SubTitle, Info, Organizer, Section, Brand };

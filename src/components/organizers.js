@@ -4,13 +4,6 @@ import { jsx } from "@emotion/core";
 import { SubTitle, Organizer, Section } from "./ui";
 import { Center } from "./helpers";
 
-const organizersContent = {
-  display: "flex",
-  justifyContent: "space-around",
-  alignItems: "center",
-  margin: 30
-};
-
 function Organizers() {
   return (
     <Section styles={{ background: "#F2F3F5" }}>
@@ -19,8 +12,8 @@ function Organizers() {
           <SubTitle>Organizadores</SubTitle>
           <span>Las siguiente personas hacen posible OpenTech</span>
         </Center>
-        <div css={organizersContent}>
-          <Organizer>
+        <Organizer>
+          <div>
             <h3>Paulo Tijero</h3>
             <div>
               <a
@@ -38,8 +31,8 @@ function Organizers() {
                 Twitter
               </a>
             </div>
-          </Organizer>
-          <Organizer>
+          </div>
+          <div>
             <h3>Jhon Fitzgerald</h3>
             <div>
               <a
@@ -57,15 +50,15 @@ function Organizers() {
                 Twitter
               </a>
             </div>
-          </Organizer>
-          {/* <Organizer>
+          </div>
+          {/* <div>
             <h3>Nombre Apellido</h3>
             <div>
               <a href="#">Github</a>
               <a href="#">Twitter</a>
             </div>
-          </Organizer> */}
-        </div>
+          </div> */}
+        </Organizer>
       </section>
     </Section>
   );

@@ -15,4 +15,18 @@ function Center({ styles, ...props }) {
   );
 }
 
-export { Center };
+function SpaceAround({ styles, ...props }) {
+  return (
+    <div
+      {...props}
+      css={{
+        display: "flex",
+        justifyContent: "space-around",
+        alignItems: "center",
+        margin: 30
+      }}
+    />
+  );
+}
+
+export { Center, SpaceAround };
