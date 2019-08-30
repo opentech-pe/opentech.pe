@@ -123,7 +123,6 @@ function SubTitle({ styles, ...props }) {
       {...props}
       css={{
         fontSize: 30,
-        textAlign: "center",
         lineHeight: "25px",
         color: "#3498DB",
         "@media (max-width: 768px)": {
