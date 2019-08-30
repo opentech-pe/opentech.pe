@@ -37,7 +37,7 @@ function About() {
         </Center>
         <Info>
           <Center>
-            <SubTitle styles={{ fontSize: 18 }}>
+            <SubTitle styles={{ fontSize: 18, textAlign: "center" }}>
               Comunidad de Tecnología
             </SubTitle>
             <p>
@@ -48,7 +48,7 @@ function About() {
             <a href="#">Únete a nuestra comunidad</a>
           </Center>
           <Center>
-            <SubTitle styles={{ fontSize: 18 }}>
+            <SubTitle styles={{ fontSize: 18, textAlign: "center" }}>
               Espacio Libre y Abierto
             </SubTitle>
             <p>
@@ -56,7 +56,13 @@ function About() {
               propuestas de charlas. Si hay algo en lo que eres experto o estas
               aprendiendo, la mejor forma de aprender es enseñar.
             </p>
-            <a href="#">Propón una charla</a>
+            <a
+              href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Propón una charla
+            </a>
           </Center>
         </Info>
       </section>
