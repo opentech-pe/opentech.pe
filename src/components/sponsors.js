@@ -34,6 +34,13 @@ function Sponsors() {
           >
             <img src="/assets/img/webout.png" alt="webout" />
           </a>
+          <a
+            href="https://www.web-out.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/assets/img/tsp.png" alt="tsp" />
+          </a>
         </Brand>
       </section>
     </Section>
