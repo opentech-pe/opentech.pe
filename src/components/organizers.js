@@ -52,7 +52,7 @@ function Organizers() {
             </div>
           </div>
           <div>
-            <h3>Manuel Curitima</h3>
+            <h3>Manuel Rojas</h3>
             <div>
               <a
                 href="https://github.com/manuelrojasc"
