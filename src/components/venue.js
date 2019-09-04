@@ -21,10 +21,10 @@ function Venue() {
             Facultad de Ingeniería en Informática y Sistemas, Tingo María, Peru
           </span>
           <iframe
-            src="https://maps.google.com/maps?q=Facultad%20de%20Ingenier%C3%ADa%20en%20Inform%C3%A1tica%20y%20Sistemas%2C%20E%200%20Rd%2C%20Peru%20&t=&z=17&ie=UTF8&iwloc=&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3937.217424441206!2d-75.99772028255616!3d-9.313993599999993!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91a6417ee38aea85%3A0x79baa8ae4d9da3e3!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Inform%C3%A1tica%20y%20Sistemas!5e0!3m2!1ses!2sus!4v1567633965334!5m2!1ses!2sus"
             frameBorder="0"
             allowFullScreen
-            title="Able, Oficina 902, Jorge Chávez 184, Miraflores 15074, Lima, Perú"
+            title="Facultad de Ingeniería en Informática y Sistemas, Tingo María, Peru"
             css={mapa}
           />
         </Center>
