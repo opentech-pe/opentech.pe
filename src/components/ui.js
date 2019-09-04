@@ -224,7 +224,7 @@ function Organizer({ styles, ...props }) {
           fontSize: 10,
           lineHeight: "20px",
           color: "#999",
-          marginRight: 5
+          marginLeft: 20
         },
         "a:hover": {
           color: "#3498DB"

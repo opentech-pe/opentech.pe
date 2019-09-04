@@ -51,13 +51,25 @@ function Organizers() {
               </a>
             </div>
           </div>
-          {/* <div>
-            <h3>Nombre Apellido</h3>
+          <div>
+            <h3>Manuel Curitima</h3>
             <div>
-              <a href="#">Github</a>
-              <a href="#">Twitter</a>
+              <a
+                href="https://github.com/manuelrojasc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <a
+                href="https://twitter.com/manuelrojasc"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
             </div>
-          </div> */}
+          </div>
         </Organizer>
       </section>
     </Section>
