@@ -1,4 +1,6 @@
-# OpenTech
+<p align="center">
+  <img src="public/assets/img/name.png" width="320" alt="OpenTech" />
+</p>
 
 Este repositorio contiene la página web pública de [OpenTech](https://opentech.netlify.com/), la comunidad de usuarios amantes de la tecnología en Tingo María, Perú. Nos reunirnos una vez al mes: el segundo viernes de cada mes, nos juntamos de 7:00 pm a 9:00 pm para escuchar charlas sobre tecnologías y temas relacionados. Estas reuniones son gratuitas, libres y todos son bienvenidos. No se requiere invitación o nivel de conocimiento.
 
