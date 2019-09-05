@@ -7,7 +7,7 @@ assignees: jhonfitzgerald, paulotijero, manuelrojasc
 
 ---
 
-> Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUCT.md)
+> Nuestros eventos se rigen por el siguiente [Código de conducta](/https://github.com/opentech-pe/opentech.pe/blob/master/CODE_OF_CONDUCT.md)
 >
 > Antes de proponer una charla, recuerda revisarlo para ver si estamos en la
 > misma onda 😊
