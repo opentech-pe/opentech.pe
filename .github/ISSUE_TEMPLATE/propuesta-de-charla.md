@@ -3,11 +3,11 @@ name: Propuesta de charla
 about: Usa esta plantilla para proponer una charla en OpenTech
 title: Título de tu charla . . .
 labels: cfp
-assignees: jhonfitzgerald, paulotijero
+assignees: jhonfitzgerald, paulotijero, manuelrojasc
 
 ---
 
-> Nuestros eventos se rigen por el siguiente [Código de conducta](https://opentech.netlify.com/code-of-conduct)
+> Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUCT.md)
 >
 > Antes de proponer una charla, recuerda revisarlo para ver si estamos en la
 > misma onda 😊
