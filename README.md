@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="public/assets/img/name.png" width="320" alt="OpenTech" />
+</p>
 
-## Available Scripts
+Este repositorio contiene la página web pública de [OpenTech](https://opentech.netlify.com/), la comunidad de usuarios amantes de la tecnología en Tingo María, Perú. Nos reunirnos una vez al mes: el segundo jueves de cada mes, nos juntamos de 7:00 pm a 9:00 pm para escuchar charlas sobre tecnologías y temas relacionados. Estas reuniones son gratuitas, libres y todos son bienvenidos. No se requiere invitación o nivel de conocimiento.
 
-In the project directory, you can run:
+Los canales oficiales para ponerte en contacto son:
 
-### `npm start`
+- [GitHub](https://github.com/opentech-pe)
+- [Slack](https://hola-opentech.herokuapp.com/)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Comunidad de Tecnología
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Como a tí, nos encanta la tecnología y hablar de ella, puedes formar parte de nuestra comunidad en Slack donde puedes encontrarnos todos los días para seguir hablando.
 
-### `npm test`
+[Únete a nuestra comunidad](https://hola-opentech.herokuapp.com/)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Espacio Libre y Abierto
 
-### `npm run build`
+Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de charlas. Si hay algo en lo que eres experto o estas aprendiendo, la mejor forma de aprender es enseñar.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Propón una charla](https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+manuelrojasc&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+.)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+_NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, no dudes en abrir un issue o contactarnos por Slack. Nos encanta ayudar ;-)_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- ### Sponsors
 
-### `npm run eject`
+¿Quieres que tu empresa u organización patrocine estos eventos? (Acá puedes ver cómo participar como sponsor)[link para recaudos]. -->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Código de conducta
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUCT.md)
