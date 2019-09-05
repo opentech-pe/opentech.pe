@@ -28,8 +28,8 @@ function About() {
           <SubTitle>Sobre nosotros</SubTitle>
           <p>
             Somos una comunidad de usuarios de apasionados por la tecnología en
-            Tingo María, Perú. Nos reunirnos una vez al mes: el segundo viernes
-            de cada mes, nos juntamos de 7:00 pm a 9:00 pm para escuchar charlas
+            Tingo María, Perú. Nos reunimos una vez al mes: el segundo jueves de
+            cada mes, nos juntamos de 7:00 pm a 9:00 pm para escuchar charlas
             sobre tecnologías y temas relacionados. Estas reuniones son
             gratuitas, libres y todos son bienvenidos. No se requiere invitación
             o nivel de conocimiento.
