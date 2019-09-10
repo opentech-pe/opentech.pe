@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import React from "react";
+import ReactGA from "react-ga";
 import { render } from "react-dom";
 import { Router } from "@reach/router";
 import { Global, jsx } from "@emotion/core";
@@ -31,3 +32,6 @@ function App() {
 }
 
 render(<App />, document.getElementById("root"));
+
+ReactGA.initialize("UA-147525467-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
