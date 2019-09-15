@@ -69,6 +69,8 @@ function Head() {
         name="twitter:summary"
         content="Comunidad de usuarios de apasionados por la tecnología en Tingo María"
       /> */}
+      <link rel="prefetch" href="/" />
+      <link rel="prefetch" href="/code-of-conduct" />
     </Helmet>
   );
 }
