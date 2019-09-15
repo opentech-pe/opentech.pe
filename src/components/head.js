@@ -34,7 +34,7 @@ function Head() {
         property="og:description"
         content="Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de charlas. Si hay algo en lo que eres experto o estas aprendiendo, la mejor forma de aprender es enseñar."
       />
-      {/* <meta property="og:image" content="/assets/img/desktop.png" /> */}
+      <meta property="og:image" content="/assets/img/cover.png" />
       <meta
         property="og:image:alt"
         content="Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de charlas. Si hay algo en lo que eres experto o estas aprendiendo, la mejor forma de aprender es enseñar."
