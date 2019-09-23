@@ -1,10 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-function Head() {
+function Seo() {
   return (
     <Helmet>
-      <meta charSet="utf-8" />
+      <link rel="shortcut icon" href="/logo.png" />
       <meta
         name="description"
         content="Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de charlas. Si hay algo en lo que eres experto o estas aprendiendo, la mejor forma de aprender es enseñar."
@@ -42,7 +42,7 @@ function Head() {
       <meta property="og:url" content="https://opentech.netlify.com" />
       <meta property="og:site_name" content="OpenTech" />
       <meta property="og:locale" content="es" />
-      {/* <meta
+      <meta
         name="twitter:card"
         value="summary_large_image"
         content="summary_large_image"
@@ -68,11 +68,11 @@ function Head() {
       <meta
         name="twitter:summary"
         content="Comunidad de usuarios de apasionados por la tecnología en Tingo María"
-      /> */}
+      />
       <link rel="prefetch" href="/" />
       <link rel="prefetch" href="/code-of-conduct" />
     </Helmet>
   );
 }
 
-export default Head;
+export default Seo;
