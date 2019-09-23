@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 function Seo() {
   return (
     <Helmet>
+      <link rel="shortcut icon" href="/logo.png" />
       <meta
         name="description"
         content="Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de charlas. Si hay algo en lo que eres experto o estas aprendiendo, la mejor forma de aprender es enseñar."
