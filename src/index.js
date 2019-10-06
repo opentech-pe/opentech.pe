@@ -5,11 +5,11 @@ import { render } from "react-dom";
 import { Router } from "@reach/router";
 import { Global, jsx } from "@emotion/core";
 
-import SEO from "./components/seo";
 import Home from "./views/home";
 import CodeOfConduct from "./views/code-of-conduct";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import { One } from "./components/no-review";
 
 const global = {
   body: {
@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Global styles={global} />
-      <SEO />
+      <One />
       <Navbar />
       <Router>
         <Home path="/" />
@@ -35,5 +35,5 @@ function App() {
 
 render(<App />, document.getElementById("root"));
 
-ReactGA.initialize("UA-147525467-1");
+ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_KEY);
 ReactGA.pageview(window.location.pathname + window.location.search);
