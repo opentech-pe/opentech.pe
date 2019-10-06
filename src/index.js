@@ -33,5 +33,5 @@ function App() {
 
 render(<App />, document.getElementById("root"));
 
-ReactGA.initialize("UA-147525467-1");
+ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_KEY);
 ReactGA.pageview(window.location.pathname + window.location.search);
