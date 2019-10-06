@@ -9,6 +9,7 @@ import Home from "./views/home";
 import CodeOfConduct from "./views/code-of-conduct";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import { One } from "./components/no-review";
 
 const global = {
   body: {
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
       <Global styles={global} />
+      <One />
       <Navbar />
       <Router>
         <Home path="/" />
