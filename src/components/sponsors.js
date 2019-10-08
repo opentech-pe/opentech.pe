@@ -32,7 +32,7 @@ function Sponsors() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/assets/img/webout.png" alt="webout" />
+            <img src="/assets/img/woz.png" alt="woz" />
           </a>
           <a
             href="https://www.web-out.com/"
