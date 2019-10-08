@@ -63,7 +63,7 @@ function About() {
               aprendiendo, la mejor forma de aprender es enseñar.
             </p>
             <a
-              href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+."
+              href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+manuelrojasc&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla+.+.+."
               target="_blank"
               rel="noopener noreferrer"
             >
