@@ -21,25 +21,11 @@ function Sponsors() {
             <img src="/assets/img/fiis.png" alt="fiis" />
           </a>
           <a
-            href="http://lwpsac.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/img/lwp.png" alt="lwp" />
-          </a>
-          <a
             href="https://www.web-out.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/assets/img/woz.png" alt="woz" />
-          </a>
-          <a
-            href="https://www.web-out.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/img/tsp.png" alt="tsp" />
           </a>
         </Brand>
       </section>
