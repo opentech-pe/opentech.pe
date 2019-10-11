@@ -8,6 +8,9 @@ Install the dependencies with yarn
 yarn install
 ```
 
+Don't forget adding your environment variables in a file `.env`
+You can use this example [.env.examples](/.env.examples)
+
 Then run the project in local with the following command
 
 ```
