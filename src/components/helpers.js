@@ -28,4 +28,17 @@ function SpaceAround({ styles, ...props }) {
   );
 }
 
-export { Center, SpaceAround };
+function SpaceEvenly({ styles, ...props }) {
+  return (
+    <div
+      {...props}
+      css={{
+        display: "flex",
+        justifyContent: "space-evenly",
+        alignItems: "center"
+      }}
+    />
+  );
+}
+
+export { Center, SpaceAround, SpaceEvenly };

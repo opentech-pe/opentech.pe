@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
 
-import { SpaceAround } from "./helpers";
+import { SpaceAround, SpaceEvenly } from "./helpers";
 
 function Bar({ styles, ...props }) {
   return (
@@ -246,7 +246,7 @@ function Organizer({ styles, ...props }) {
 
 function Brand({ styles, ...props }) {
   return (
-    <SpaceAround
+    <SpaceEvenly
       {...props}
       css={{
         marginTop: 30,
