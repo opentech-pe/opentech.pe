@@ -23,4 +23,4 @@ For bugs report them [here](https://github.com/opentech-pe/opentech.pe/issues/ne
 
 ## Code of conduct to contributing
 
-Contributions are governed by the following [Code of Conduct](/CODE_OF_CONDUCT.md)
+Contributions are governed by the following [Code of Conduct](/CODE_OF_CONDUCT_TO_CONTRIBUTING.md)
