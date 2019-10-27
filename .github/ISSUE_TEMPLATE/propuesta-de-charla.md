@@ -14,7 +14,7 @@ assignees: jhonfitzgerald, paulotijero, manuelrojasc
 
 ## ¿Qué tipo de presentación quieres hacer?
 
-- [ ] Keynote (20 a 30 minutos)
+- [ ] Keynote (30 a 45 minutos)
 - [ ] Lightning Talk (+- 5 minutos)
 
 ## ¿Cuál es tu nombre?
