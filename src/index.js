@@ -7,6 +7,7 @@ import { Global, jsx } from "@emotion/core";
 
 import Home from "./views/home";
 import CodeOfConduct from "./views/code-of-conduct";
+import PreviousEvents from "./views/previous-events";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import { One } from "./components/no-review";
@@ -27,6 +28,7 @@ function App() {
       <Router>
         <Home path="/" />
         <CodeOfConduct path="/code-of-conduct" />
+        <PreviousEvents path="previous-events" />
       </Router>
       <Footer />
     </>
