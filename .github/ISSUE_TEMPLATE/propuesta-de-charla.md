@@ -44,6 +44,7 @@ Algo como:
 ## ¿Representas a alguna compañía o empresa?
 
 ## ¿Quieres agregar algo más?
+<!-- ¿Necesitas internet, laptop o algun tipo de conector específico para el proyector? -->
 
 > Muchas Gracias!
 > El equipo de OpenTech
