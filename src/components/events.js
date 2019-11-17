@@ -144,6 +144,48 @@ function Events() {
             </a>
           </p>
         </div>
+        <div css={{ margin: "60px auto" }}>
+          <SubTitle styles={{ fontSize: 25, color: "#000" }}>
+            Noviembre 2019
+          </SubTitle>
+          <p>El día jueves 14 de noviembre tuvimos las siguientes charlas:</p>
+          <ul>
+            <li>
+              <a
+                href="https://docs.google.com/presentation/d/12DsoWV2pQJ4H60AY6BNXYQXl5yI8HTupKaL8QGWh8n8/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                # Introducción a angular y no morir en el intento.
+              </a>{" "}
+              -{" "}
+              <a
+                href="https://github.com/thelinch"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Antony Inga
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://docs.google.com/presentation/d/15RbVUW0SUZiWUgxdhqDjCn01--6CC4HLo9ZbGnVaKtg/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                # 3 razones por las cuales usar gitflow.
+              </a>{" "}
+              -{" "}
+              <a
+                href="https://twitter.com/tony_ojedaV"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Tony Ojeda
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </Section>
   );
