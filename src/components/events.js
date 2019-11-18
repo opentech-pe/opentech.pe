@@ -185,6 +185,16 @@ function Events() {
               </a>
             </li>
           </ul>
+          <p>
+            Mira nuestras{" "}
+            <a
+              href="https://photos.app.goo.gl/G62HtRbc5xKHN4S37"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              fotos del evento
+            </a>
+          </p>
         </div>
       </section>
     </Section>
