@@ -52,21 +52,21 @@ function Organizers() {
             </div>
           </div>
           <div>
-            <h3>Manuel Rojas</h3>
+            <h3>Jimmy Loloy</h3>
             <div>
               <a
-                href="https://github.com/manuelrojasc"
+                href="https://github.com/JimmyLoloy1998"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Github
               </a>
               <a
-                href="https://twitter.com/manuelrojasc"
+                href="https://www.facebook.com/jimmy.loloylaurencio.9"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Facebook
               </a>
             </div>
           </div>
