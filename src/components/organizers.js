@@ -3,6 +3,7 @@ import { jsx } from "@emotion/core";
 
 import { SubTitle, Organizer, Section } from "./ui";
 import { Center } from "./helpers";
+import organizersJson from "../data/organizers.json";
 
 function Organizers() {
   return (
@@ -13,63 +14,26 @@ function Organizers() {
           <span>Las siguiente personas hacen posible OpenTech</span>
         </Center>
         <Organizer>
-          <div>
-            <h3>Paulo Tijero</h3>
-            <div>
-              <a
-                href="https://github.com/paulotijero"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://twitter.com/paulotijero"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
+          {organizersJson.map(organizer => (
+            <div key={organizer.fullname}>
+              <h3>{organizer.fullname}</h3>
+              <div>
+                {organizer.social_networks.map(
+                  (social, i) =>
+                    i < 2 && (
+                      <a
+                        key={social.name + i}
+                        href={social.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {social.name}
+                      </a>
+                    )
+                )}
+              </div>
             </div>
-          </div>
-          <div>
-            <h3>Jhon Fitzgerald</h3>
-            <div>
-              <a
-                href="https://github.com/jhonfitzgerald"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://twitter.com/FitzgeraldOrtiz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
-            </div>
-          </div>
-          <div>
-            <h3>Jimmy Loloy</h3>
-            <div>
-              <a
-                href="https://github.com/JimmyLoloy1998"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href="https://www.facebook.com/jimmy.loloylaurencio.9"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Facebook
-              </a>
-            </div>
-          </div>
+          ))}
         </Organizer>
       </section>
     </Section>
