@@ -15,7 +15,7 @@ Los canales oficiales para ponerte en contacto son:
 
 Como a tí, nos encanta la tecnología y hablar de ella, puedes formar parte de nuestra comunidad en Slack donde puedes encontrarnos todos los días para seguir hablando.
 
-[Únete a nuestra comunidad](https://hola-opentech.herokuapp.com/)
+[Únete a nuestro slack](https://hola-opentech.herokuapp.com/)
 
 ## Espacio Libre y Abierto
 
