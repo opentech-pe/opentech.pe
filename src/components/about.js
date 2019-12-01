@@ -50,7 +50,7 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Únete a nuestra comunidad
+              Únete a nuestro Slack
             </a>
           </Center>
           <Center>
