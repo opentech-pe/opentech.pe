@@ -1,4 +1,6 @@
 /* /index.html 200
 
-# This rule will redirect at the new domain
-https://opentech.netlify.com https://www.opentech.pe
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect default Netlify subdomain to primary domain
+https://opentech.netlify.com/* https://www.opentech.pe/:splat 301!
