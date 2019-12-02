@@ -1,1 +1,4 @@
 /* /index.html 200
+
+# This rule will redirect at the new domain
+https://opentech.netlify.com https://www.opentech.pe
