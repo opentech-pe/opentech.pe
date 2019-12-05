@@ -11,22 +11,21 @@ assignees: jhonfitzgerald, paulotijero
 >
 > Antes de proponer una charla, recuerda revisarlo para ver si estamos en la
 > misma onda 😊
+<!-- Antes de enviar tu propuestas no olvides verlo en Preview y cerciorarte que todo este 👌  -->
 
 ## ¿Qué tipo de presentación quieres hacer?
-
+<!-- Seleciona el tipo de presentación borrando el espacio en los corchetes y agregando una x, así => [x]  😉 -->
 - [ ] Keynote (30 a 45 minutos)
 - [ ] Lightning Talk (+- 5 minutos)
 
 ## ¿Cuál es tu nombre?
 
 ## Cuéntanos un poco sobre ti
-
-<!-- Esto será usado como tu Bio en redes sociales y para presentarte a los
-asistentes al meetup-->
+<!-- Esto información será usado como tu Bio en todas redes sociales para presentarte a los
+asistentes al meetup -->
 
 ## ¿Cuál es el título de tu charla?
-
-<!-- La idea es que resuma la idea central de tu presentación.
+<!-- Tu título debería resumir la idea central de tu presentación.
 Algo como:
 'Closures v/s Clases, la batalla final'
 '10 Features de ES7 que tienes que conocer, (el numero 4 te dejará llorando)'
@@ -34,14 +33,14 @@ Algo como:
  -->
 
 ## Danos una descripción de tu charla (20 palabras)
-
 <!-- Con 20 palabras estamos bien :) -->
 
 ## ¿Tienes alguna red social donde podamos contactarte?
-
 <!-- Twitter / Github / Linkedin / Facebook ... -->
+<!-- No olvides linkear tus redes sociales, puedes usar este formato => [red_social](link) -->
 
 ## ¿Representas a alguna compañía o empresa?
+<!-- Si no representas a ninguna compañía, puedes borrar esta pregunta 😊 -->
 
 ## ¿Quieres agregar algo más?
 <!-- ¿Necesitas internet, laptop o algun tipo de conector específico para el proyector? -->
