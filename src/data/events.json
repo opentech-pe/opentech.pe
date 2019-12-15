@@ -35,18 +35,43 @@
     "day": "14",
     "talks": [
       {
-        "title": "Introducción a angular y no morir en el intento.",
+        "title": "Introducción a angular y no morir en el intento",
         "slide": "https://docs.google.com/presentation/d/12DsoWV2pQJ4H60AY6BNXYQXl5yI8HTupKaL8QGWh8n8/edit",
         "speaker": "Antony Inga",
         "speaker_link": "https://github.com/thelinch"
       },
       {
-        "title": "3 razones por las cuales usar gitflow.",
+        "title": "3 razones por las cuales usar gitflow",
         "slide": "https://docs.google.com/presentation/d/15RbVUW0SUZiWUgxdhqDjCn01--6CC4HLo9ZbGnVaKtg/edit",
         "speaker": "Tony Ojeda",
         "speaker_link": "https://twitter.com/tony_ojedaV"
       }
     ],
     "photos": "https://photos.app.goo.gl/G62HtRbc5xKHN4S37"
+  },
+  {
+    "date": "Diciembre 2019",
+    "day": "12",
+    "talks": [
+      {
+        "title": "Impacto del Protocolo SSL/TLS hacia los sitios web",
+        "slide": "https://drive.google.com/file/d/1QQ3JbNbUfPQZBXuSaSuNCxalB8_BC1oe/view",
+        "speaker": "Edgar Rueda",
+        "speaker_link": "https://www.linkedin.com/in/edgar-rueda/"
+      },
+      {
+        "title": "Git's time",
+        "slide": "https://drive.google.com/file/d/1Gl7NJR2dSREnN-VgETZ9fNb0BnKwtDYH/view",
+        "speaker": "Jhon Fitzgerald",
+        "speaker_link": "https://github.com/jhonfitzgerald"
+      },
+      {
+        "title": "Comparte cuentas sin tener que compartir tus credenciales",
+        "slide": "https://docs.google.com/presentation/d/17PPVWN27OGZjdWbiNP0IaBUqeUjZYfQYEM88Vi5AVUk/edit#slide=id.g6c1fea954b_0_30",
+        "speaker": "Jimmy Loloy",
+        "speaker_link": "https://github.com/JimmyLoloy1998"
+      }
+    ],
+    "photos": "https://photos.app.goo.gl/ELPeC28NKDzkR6jP9"
   }
 ]
