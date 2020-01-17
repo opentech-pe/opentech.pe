@@ -33,11 +33,20 @@ function Footer() {
                 Dar una charla
               </a>
             </li>
-            {/* <li>
+            <li>
               <ActiveLink to="/previous-events">Eventos Anteriores</ActiveLink>
-            </li> */}
+            </li>
             <li>
               <ActiveLink to="/code-of-conduct">Código de conducta</ActiveLink>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/OpenTechTM/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Nuestro Facebook
+              </a>
             </li>
           </ul>
         </Nav>
