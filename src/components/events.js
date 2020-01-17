@@ -59,7 +59,7 @@ function Events() {
             Eventos anteriores
           </SubTitle>
         </Center>
-        {eventsJson.map(event => (
+        {eventsJson.reverse().map(event => (
           <div key={event.day + event.date} css={{ margin: "60px auto" }}>
             <SubTitle styles={{ fontSize: 25, color: "#000" }}>
               {event.date}
