@@ -73,5 +73,24 @@
       }
     ],
     "photos": "https://www.facebook.com/pg/OpenTechTM/photos/?tab=album&album_id=148963629852611"
+  },
+  {
+    "date": "Enero 2019",
+    "day": "09",
+    "talks": [
+      {
+        "title": "Introduccion a ReactJS",
+        "slide": "https://drive.google.com/file/d/1Gcyu1tjqEHeoL0fZzb0IOIfVty_FZBhi/view?usp=sharing",
+        "speaker": "Angel Lucero",
+        "speaker_link": "https://github.com/LuisAngelLucerosaldanaD"
+      },
+      {
+        "title": "Como sacar provecho de las Charlas OpenTech",
+        "slide": "https://docs.google.com/presentation/d/1rbaqA_1SJe-vN4Zs7AxvLUFt6UQtFZbX-52bpVnwIvA/edit#slide=id.g70c14812c1_0_8",
+        "speaker": "Tony Ojeda",
+        "speaker_link": "https://twitter.com/tony_ojedaV"
+      }
+    ],
+    "photos": "https://www.facebook.com/OpenTechTM/photos/?tab=album&album_id=148960646519576"
   }
 ]
