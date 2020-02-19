@@ -75,7 +75,7 @@
     "photos": "https://www.facebook.com/pg/OpenTechTM/photos/?tab=album&album_id=148963629852611"
   },
   {
-    "date": "Enero 2019",
+    "date": "Enero 2020",
     "day": "09",
     "talks": [
       {
@@ -92,5 +92,24 @@
       }
     ],
     "photos": "https://www.facebook.com/OpenTechTM/photos/?tab=album&album_id=148960646519576"
+  },
+  {
+    "date": "Febrero 2020",
+    "day": "13",
+    "talks": [
+      {
+        "title": "DataFeching in React",
+        "slide": "https://docs.google.com/presentation/d/1-KAJJ96HZdlc7RYI1Rc1ZnI6qV-TqbYTUV7vINUORoM/edit?usp=sharing",
+        "speaker": "Frank Condezo",
+        "speaker_link": "https://twitter.com/condef5"
+      },
+      {
+        "title": "NextJS SSR with React",
+        "slide": "https://docs.google.com/presentation/d/1SFUTTt7iDa8acyqF1pWTB_AXmU6E9w7RGAvN5WeXpBs/edit?usp=sharing",
+        "speaker": "Deyvi Conde",
+        "speaker_link": "https://www.linkedin.com/in/deyviconde/"
+      }
+    ],
+    "photos": "https://www.facebook.com/pg/OpenTechTM/photos/?tab=album&album_id=173952587353715"
   }
 ]
