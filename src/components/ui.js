@@ -256,12 +256,17 @@ function Brand({ styles, ...props }) {
           position: "relative"
         },
         img: {
+          filter: "saturate(0.1)",
           height: "100%",
           width: "100%",
           objectFit: "contain",
           position: "absolute",
           top: 0,
-          left: 0
+          left: 0,
+          transition: "all 0.25s ease-in-out",
+          "&:hover": {
+            filter: "saturate(1)"
+          }
         },
         "@media (max-width: 768px)": {
           margin: 0,

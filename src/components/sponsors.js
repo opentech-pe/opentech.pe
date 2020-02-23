@@ -14,13 +14,6 @@ function Sponsors() {
         </Center>
         <Brand>
           <a
-            href="https://fiis.unas.edu.pe/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/img/fiis.png" alt="fiis" />
-          </a>
-          <a
             href="https://www.web-out.com/"
             target="_blank"
             rel="noopener noreferrer"
