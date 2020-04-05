@@ -111,5 +111,30 @@
       }
     ],
     "photos": "https://www.facebook.com/pg/OpenTechTM/photos/?tab=album&album_id=173952587353715"
+  },
+  {
+    "date": "Marzo 2020",
+    "day": "12",
+    "talks": [
+      {
+        "title": "Comunidad Microsoft",
+        "slide": "https://drive.google.com/file/d/1h0kT817a-IZfKFHbRExsD2OZmacOQ7NA/view",
+        "speaker": "Leidy Borja",
+        "speaker_link": "https://www.linkedin.com/in/leidy-rosi-borja-reyes-3527b39b/"
+      },
+      {
+        "title": "¿Por qué Ruby?",
+        "slide": "https://drive.google.com/file/d/1vHUgpfLHaQen8-MKTpFNIJJgL0PqZIj4/view",
+        "speaker": "Marieth Perez",
+        "speaker_link": "https://www.linkedin.com/in/marieth-perez-15773a6b/"
+      },
+      {
+        "title": "Promover la participación ciudadana y la cultura libre, utilizando herramientas digitales",
+        "slide": "http://naimlab.org.pe/home/",
+        "speaker": "Clara Cubas",
+        "speaker_link": "https://www.linkedin.com/in/claracubas/"
+      }
+    ],
+    "photos": "https://www.facebook.com/pg/OpenTechTM/photos/?tab=album&album_id=192120485536925"
   }
 ]
