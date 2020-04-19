@@ -1,6 +1,6 @@
 import React from "react";
 import App from "next/app";
-import "../assets/styles.css";
+import "../public/styles.css";
 
 export default class OpenTech extends App {
   render() {
