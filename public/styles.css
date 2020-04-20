@@ -1,5 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+
 /* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+body {
+  @apply w-full px-3 mx-auto;
+}
+
+@screen sm {
+  body {
+    max-width: theme("screens.sm");
+  }
+}
+@screen md {
+  body {
+    max-width: theme("screens.md");
+  }
+}
+@screen lg {
+  body {
+    max-width: theme("screens.lg");
+  }
+}
+@screen xl {
+  body {
+    max-width: theme("screens.xl");
+  }
+}
