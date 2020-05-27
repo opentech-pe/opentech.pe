@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  @apply w-full px-3 mx-auto;
+  @apply w-full px-24 mx-auto;
 }
 
 @screen sm {
@@ -29,4 +29,9 @@ body {
   body {
     max-width: theme("screens.xl");
   }
+}
+
+h1,
+h2 {
+  @apply font-big;
 }
