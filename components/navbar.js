@@ -2,12 +2,18 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header>
-      <Link href="/">OpenTech</Link>
+    <header className="flex justify-between items-center">
+      <Link href="/">
+        <a title="OpenTech">
+          Open<span>Tech</span>
+        </a>
+      </Link>
       <nav>
         <ul>
           <li>
-            <Link href="/previous-events">Eventos anteriores</Link>
+            <Link href="/previous-events">
+              <a title="Eventos anteriores">Eventos anteriores</a>
+            </Link>
           </li>
           <li>
             <a href="https://github.com/opentech-pe">

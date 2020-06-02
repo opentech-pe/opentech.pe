@@ -7,6 +7,10 @@
 @tailwind utilities;
 
 body {
+  @apply w-full mx-auto;
+}
+
+main {
   @apply w-full px-24 mx-auto;
 }
 
