@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+//import Footer from "../components/footer"
+
 export default function CodeOfConduct() {
   return (
     <div className="p-4 shadow rounded bg-white">
