@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  @apply w-full px-48 mx-auto;
+  @apply w-full mx-auto;
 }
 
 @screen sm {

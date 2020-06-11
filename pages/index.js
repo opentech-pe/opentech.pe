@@ -10,10 +10,10 @@ export default function Index() {
         <link rel="icon" href="/assets/img/logo.png" />
       </Head>
       <Navbar />
-      <main>
+      <main className="px-3 md:px-48">
         <section className="mb-20 mt-10">
           <img className="mx-auto my-2" src="/assets/img/logo-without-bg.png" />
-          <h1 className="font-big text-5xl text-center">
+          <h1 className="font-big text-center md:text-5xl">
             La tecnología es nuestra pasión.
           </h1>
         </section>
