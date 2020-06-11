@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  @apply w-full mx-auto;
+  @apply w-full mx-auto text-gray-900;
 }
 
 main {
