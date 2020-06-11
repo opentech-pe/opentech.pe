@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  @apply w-full mx-auto text-gray-900;
+  @apply text-gray-900;
 }
 
 main {
@@ -15,22 +15,26 @@ main {
 }
 
 @screen sm {
-  body {
+  main,
+  nav {
     max-width: theme("screens.sm");
   }
 }
 @screen md {
-  body {
+  main,
+  nav {
     max-width: theme("screens.md");
   }
 }
 @screen lg {
-  body {
+  main,
+  nav {
     max-width: theme("screens.lg");
   }
 }
 @screen xl {
-  body {
+  main,
+  nav {
     max-width: theme("screens.xl");
   }
 }
