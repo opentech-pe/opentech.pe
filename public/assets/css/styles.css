@@ -7,11 +7,11 @@
 @tailwind utilities;
 
 body {
-  @apply text-gray-900;
+  @apply text-gray-900 bg-gray-100;
 }
 
 main {
-  @apply w-full px-24 mx-auto;
+  @apply w-full px-48 mx-auto;
 }
 
 @screen sm {
