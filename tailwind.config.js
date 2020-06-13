@@ -10,7 +10,17 @@ module.exports = {
       big: ['"Press Start 2P"', "sans-serif"],
       small: ["VT323", "sans-serif"],
     },
-    extend: {},
+    fontSize: {
+      sm: ['14px', '20px'],
+      base: ['16px', '24px'],
+      lg: ['20px', '28px'],
+      xl: ['24px', '32px'],
+    },
+    extend: {
+      colors: {
+        blue: '#3498DB',
+      },
+    },
   },
   variants: {},
   plugins: [],

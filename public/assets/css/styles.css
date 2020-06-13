@@ -39,3 +39,7 @@ h1,
 h2 {
   @apply font-big;
 }
+footer {
+  @apply bg-blue;
+  /*@apply text-base;*/
+}
