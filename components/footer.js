@@ -1,32 +1,40 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
-    <footer className="bg-blue w-screen h-24 m-0 items-center">
-      <div className="font-big text-white flex  items-center text-center">
-        <h1>
-          <a href="#">OpenTech</a>
-        </h1>
-        <nav className="overflow-autob h-full block justify-end"> 
-          <ul className="flex text-base">
-            <li className="flex-1">
-              <a title="Dar una charla" href="/https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+." target="_blank" rel="noopener noreferrer">
+    <footer className="text-white bg-blue-500 font-big py-3 px-2 md:py-8">
+      <nav className="flex justify-between item-center mx-auto"> 
+        <ul className="mr-3 text-2xl md:text-3xl">
+          <li>
+            <Link href="/">
+              <a title="OpenTech">OpenTech</a>
+            </Link>
+          </li>
+        </ul>
+        <ul className="flex items-center overflow-auto text-xs">
+          <li className="text-center w-40 mr-6 md:m-0">
+            <Link href="/https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+." target="_blank" rel="noopener noreferrer">
+              <a title="Dar una charla">
                 Dar una charla
               </a>
-            </li>
-            <li className="flex-1">
-              <a title="Eventos anteriores" href="/previous-event">
+            </Link>
+          </li>
+          <li className="text-center w-40 mr-6 md:m-0">
+            <Link href="/previous-event">
+              <a title="Eventos anteriores">
                 Eventos anteriores
               </a>
-            </li>
-            <li className="flex-1">
-              <a title="Codigo de conducta" href="/code-of-conduct">
+            </Link>
+          </li>
+          <li className="text-center w-40 mr-6 md:m-0">
+            <Link href="/code-of-conduct">
+              <a title="Codigo de conducta">
                 Codigo de conducta
               </a>
-            </li>
-          </ul>
-        </nav>
-        </div>
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </footer>
   );
 }
-
-{/* Comments */}
