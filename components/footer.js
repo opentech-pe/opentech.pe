@@ -29,7 +29,7 @@ export default function Footer() {
           <li className="flex text-center w-40 mr-6 md:m-0">
             <Link href="/code-of-conduct">
               <a title="Codigo de conducta">
-                Codigo de conducta
+                Código de conducta
               </a>
             </Link>
           </li>
