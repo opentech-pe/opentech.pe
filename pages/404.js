@@ -17,8 +17,8 @@ export default function Custom404(){
         </h1>
         <span className="font-big mt-8 text-center md:mt-2">This page could not be found.</span>
         <Link href="/">
-          <button onMouseOver={handleEvent} onMouseOut={handleEvent} className="font-small m-5 text-xl hover:cursor-pointer">
-            {"<--"} Go Back Home
+          <button type="button" onMouseOver={handleEvent} onMouseOut={handleEvent} className="nes-btn font-small m-5 text-xl">
+            Go Back Home
           </button>
         </Link>
       </section>

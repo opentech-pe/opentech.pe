@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link"
 
 import Navbar from "../components/navbar";
 
@@ -17,7 +18,7 @@ export default function Index() {
             La tecnología es nuestra pasión.
           </h1>
         </section>
-        <section className="my-20">
+        <section className="my-12">
           <p className="font-small text-2xl">
             Bienvenido a la comunidad de usuarios apasionados por la tecnología
             en Tingo María, Perú. Como a tí, nos encanta la tecnología y hablar
@@ -27,9 +28,15 @@ export default function Index() {
             todos son bienvenidos. No se requiere invitación, solo necesitas
             curiosidad y muchas ganas de aprender.
           </p>
-          {/* <button className="font-small">Agendar a mi calendario</button> */}
+          <div className="flex justify-center text-xl my-10">
+            <Link href="/incomplete">
+              <button type="button" className="nes-btn is-primary font-small">
+                Agendar al Google Calendar
+              </button>
+            </Link>
+          </div>
         </section>
-        <section className="my-20">
+        <section className="my-12">
           <h2 className="font-big mb-5 text-xl">Participa en la comunidad</h2>
           <p className="font-small text-2xl">
             Lo ideal es que nos sigas a través de nuestro Facebook para
@@ -37,19 +44,29 @@ export default function Index() {
             parte de nuestra comunidad en Slack donde nos encontraras todos los
             días para seguir hablando.
           </p>
-          {/* <button className="font-small">Siguenos en Facebook</button>
-          <button className="font-small">Únete a nuestro Slack</button> */}
+          <div className="flex justify-center text-xl my-10">
+            <a className="nes-btn is-primary font-small mx-5" href="https://www.facebook.com/OpenTechTM" target="_blank" rel="noopener noreferrer">
+              Siguenos en Facebook
+            </a>
+            <a className="nes-btn is-primary font-small mx-5" href="https://hola-opentech.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              Únete a nuestro Slack
+            </a>
+          </div>
         </section>
-        <section className="my-20">
+        <section className="my-12">
           <h2 className="font-big mb-5 text-xl">Espacio libre y abierto</h2>
           <p className="font-small text-2xl">
             Somos una comunidad con ganas de aprender, siempre abierta a nuevas
             propuestas de charlas. Si hay algo en lo que eres experto o estas
             aprendiendo, la mejor forma de aprender es enseñar.
           </p>
-          {/* <button className="font-small">Proponer una charla</button> */}
+          <div className="flex justify-center text-xl my-10">
+            <a className="nes-btn is-primary font-small mx-5" href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+JimmyLoloy98&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla+.+.+." target="_blank" rel="noopener noreferrer">
+              Proponer una charla
+            </a>
+          </div>
         </section>
-        <section className="my-20">
+        <section className="my-12">
           <h2 className="font-big mb-5 text-xl">¿Cómo nos puedes ayudar?</h2>
           <p className="font-small text-2xl">
             Nuestro principal objetivo es compartir conocimiento en tecnología y
@@ -67,10 +84,20 @@ export default function Index() {
             Así que estamos en busqueda de aliados que nos ayuden a cubrir estos
             gastos, puedes convertirte en backer (personas) o sponsor
             (organizaciones o empresas) contactándote con nosotros,{" "}
-            <a className="text-blue-500" href="#">¡Envianos un correo!</a>
+            <a className="text-blue-500" href="mailto:paulotijero@gmail.com?cc=loloy.laurencio@gmail.com">¡Envianos un correo!</a>
           </p>
-          {/* <button className="font-small">Conoce a nuestros backers</button>
-          <button className="font-small">Conoce a nuestros sponsors</button> */}
+          <div className="flex justify-center text-xl my-10">
+            <Link href="/incomplete">
+              <button type="button" className="nes-btn is-primary font-small mx-5">
+                Conoce a nuestros backers
+              </button>
+            </Link>
+            <Link href="/incomplete">
+              <button type="button" className="nes-btn is-primary font-small mx-5">
+                Conoce a nuestros sponsors
+              </button>
+            </Link>
+          </div>
         </section>
       </main>
     </>
