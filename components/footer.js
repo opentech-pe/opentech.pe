@@ -13,11 +13,9 @@ export default function Footer() {
         </ul>
         <ul className="flex items-center overflow-auto text-xs">
           <li className="text-center w-40 mr-6 md:m-0">
-            <Link href="/https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+." target="_blank" rel="noopener noreferrer">
-              <a title="Dar una charla">
-                Dar una charla
-              </a>
-            </Link>
+            <a title="Dar una charla" href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+JimmyLoloy98&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla+.+.+." target="_blank" rel="noopener noreferrer">
+              Dar una charla
+            </a>
           </li>
           <li className="text-center w-40 mr-6 md:m-0">
             <Link href="/previous-event">
