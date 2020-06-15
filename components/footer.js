@@ -2,9 +2,15 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
+<<<<<<< Updated upstream
     <footer className="text-white bg-blue-500 font-big py-3 px-2 md:py-8">
       <nav className="flex justify-between mx-auto"> 
         <ul className="flex items-center mr-3 text-2xl md:text-3xl">
+=======
+    <footer className="text-white bg-blue-500 font-big py-3 px-8 md:py-8">
+      <nav className="flex justify-between item-center mx-auto"> 
+        <ul className="flex item-center mr-3 text-2xl md:text-3xl">
+>>>>>>> Stashed changes
           <li>
             <Link href="/">
               <a title="OpenTech">OpenTech</a>
