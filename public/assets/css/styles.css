@@ -7,10 +7,6 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
-html {
-  @apply cursor-auto;
-}
-
 body {
   @apply text-gray-900 bg-gray-100;
 }
