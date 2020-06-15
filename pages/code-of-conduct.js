@@ -29,12 +29,12 @@ export default function CodeOfConduct() {
         <h2 className="font-big mb-5 text-xl">La Versión Rápida</h2>
         <p>
           Nuestro meetup se dedica a ofrecer una experiencia libre de abusos para todos, 
-          independientemente de su genero, orientación sexual, discapacidad, apariencia física, 
+          independientemente de su género, orientación sexual, discapacidad, apariencia física, 
           talla, raza o religión. No toleramos abusos de los participantes a la conferencia 
           en ninguna de sus formas. El lenguaje e imágenes sexuales no son apropiados a ninguna 
           sala del meetup, incluyendo charlas, talleres, fiestas, twitter, facebook, slack y otros 
           medios online. Los participantes del meetup que violen estas reglas pueden ser 
-          sancionados o expulsados de la misma, a discresión de los organizadores.
+          sancionados o expulsados de la misma, a discreción de los organizadores.
         </p>
       </section>
       <section className="my-16">
@@ -51,8 +51,8 @@ export default function CodeOfConduct() {
           obedezcan inmediatamente.
         </p>
         <p>
-          Los patrocinadores también están sujetos a la politica contra abusos. En particular, 
-          los patrocinadores no deberían utilizar imágenes, actividades u otro material con contenido sexual. 
+          Los patrocinadores también están sujetos a la politica contra abusos. En particular, los 
+          patrocinadores no deberían utilizar imágenes, actividades u otro material con contenido sexual. 
           El personal (voluntarios incluidos) no debería usar ropa/uniformes/disfraces sexualizados, o que 
           de otra manera crean un ambiente sexualizado.
         </p>
