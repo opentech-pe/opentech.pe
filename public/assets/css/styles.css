@@ -28,7 +28,7 @@ main {
 }
 @screen lg {
   main,
-  nav, {
+  nav {
     max-width: theme("screens.lg");
   }
 }
