@@ -16,29 +16,25 @@ main {
 
 @screen sm {
   main,
-  nav,
-  footer {
+  nav {
     max-width: theme("screens.sm");
   }
 }
 @screen md {
   main,
-  nav,
-  footer {
+  nav {
     max-width: theme("screens.md");
   }
 }
 @screen lg {
   main,
-  nav,
-  footer {
+  nav, {
     max-width: theme("screens.lg");
   }
 }
 @screen xl {
   main,
-  nav,
-  footer {
+  nav {
     max-width: theme("screens.xl");
   }
 }
@@ -46,4 +42,9 @@ main {
 h1,
 h2 {
   @apply font-big;
+}
+
+p {
+  @apply font-small; 
+  @apply text-2xl;
 }
