@@ -17,7 +17,7 @@ export default function CodeOfConduct() {
           Código de conducta
         </h1>
       </section>
-      <section className="my-16">
+      <section>
         <p>
           Se requiere que todos los asistentes, ponentes, patrocinadores y voluntarios de
           nuestro meetup <em>(sea presencial u online),</em> acepten el siguiente codigo de conducta. 
@@ -25,7 +25,7 @@ export default function CodeOfConduct() {
           colaboración de todos los participantes para ayudar a asegurar un ambiente seguro para todos.
         </p>
       </section>
-      <section className="my-16">
+      <section>
         <h2 className="font-big mb-5 text-xl">La Versión Rápida</h2>
         <p>
           Nuestro meetup se dedica a ofrecer una experiencia libre de abusos para todos, 
@@ -37,7 +37,7 @@ export default function CodeOfConduct() {
           sancionados o expulsados de la misma, a discreción de los organizadores.
         </p>
       </section>
-      <section className="my-16">
+      <section>
         <h2 className="font-big mb-5 text-xl">La Versión Menos Corta</h2>
         <p>
           Los abusos incluyen: comentarios ofensivos relativos a género, orientación sexual, 
