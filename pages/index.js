@@ -19,7 +19,7 @@ export default function Index() {
             La tecnología es nuestra pasión.
           </h1>
         </section>
-        <section className="my-12">
+        <section>
           <p className="font-small text-2xl">
             Bienvenido a la comunidad de usuarios apasionados por la tecnología
             en Tingo María, Perú. Como a tí, nos encanta la tecnología y hablar
@@ -37,7 +37,7 @@ export default function Index() {
             </Link>
           </div>
         </section>
-        <section className="my-12">
+        <section>
           <h2 className="font-big mb-5 text-xl">Participa en la comunidad</h2>
           <p>
             Lo ideal es que nos sigas a través de nuestro Facebook para
@@ -54,7 +54,7 @@ export default function Index() {
             </a>
           </div>
         </section>
-        <section className="my-12">
+        <section>
           <h2 className="font-big mb-5 text-xl">Espacio libre y abierto</h2>
           <p>
             Somos una comunidad con ganas de aprender, siempre abierta a nuevas
@@ -67,7 +67,7 @@ export default function Index() {
             </a>
           </div>
         </section>
-        <section className="my-12">
+        <section>
           <h2 className="font-big mb-5 text-xl">¿Cómo nos puedes ayudar?</h2>
           <p>
             Nuestro principal objetivo es compartir conocimiento en tecnología y
