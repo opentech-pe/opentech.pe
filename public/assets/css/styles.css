@@ -46,8 +46,7 @@ h2 {
 }
 
 p {
-  @apply font-small; 
-  @apply text-2xl;
+  @apply font-small text-2xl;
 }
 
 section {
