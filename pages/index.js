@@ -19,8 +19,8 @@ export default function Index() {
             La tecnología es nuestra pasión.
           </h1>
         </section>
-        <section className="my-12">
-          <p className="font-small text-2xl">
+        <section>
+          <p>
             Bienvenido a la comunidad de usuarios apasionados por la tecnología
             en Tingo María, Perú. Como a tí, nos encanta la tecnología y hablar
             de ella; nos reunimos una vez al mes: el segundo jueves de cada mes,
@@ -37,9 +37,9 @@ export default function Index() {
             </Link>
           </div>
         </section>
-        <section className="my-12">
+        <section>
           <h2 className="font-big mb-5 text-xl">Participa en la comunidad</h2>
-          <p className="font-small text-2xl">
+          <p>
             Lo ideal es que nos sigas a través de nuestro Facebook para
             enterarte de nuestros meetups y actividades. Puedes también formar
             parte de nuestra comunidad en Slack donde nos encontraras todos los
@@ -54,9 +54,9 @@ export default function Index() {
             </a>
           </div>
         </section>
-        <section className="my-12">
+        <section>
           <h2 className="font-big mb-5 text-xl">Espacio libre y abierto</h2>
-          <p className="font-small text-2xl">
+          <p>
             Somos una comunidad con ganas de aprender, siempre abierta a nuevas
             propuestas de charlas. Si hay algo en lo que eres experto o estas
             aprendiendo, la mejor forma de aprender es enseñar.
@@ -67,21 +67,21 @@ export default function Index() {
             </a>
           </div>
         </section>
-        <section className="my-12">
+        <section>
           <h2 className="font-big mb-5 text-xl">¿Cómo nos puedes ayudar?</h2>
-          <p className="font-small text-2xl">
+          <p>
             Nuestro principal objetivo es compartir conocimiento en tecnología y
             que este llegue a más personas, podrías comenzar difundiendo la
             tecnología o nuestra comunidad a tus amigos de la universidad, del
             trabajo o hasta a tu familia.
           </p>
-          <p className="font-small text-2xl">
+          <p>
             De igual manera, para llevar a cabo nuestros eventos, tenemos que
             contar con un presupuesto que cubre el catering (gaseosa, bocaditos,
             etc) para los asistentes, así como stickers, badges, señalética,
             nombres de dominio, etc.
           </p>
-          <p className="font-small text-2xl">
+          <p>
             Así que estamos en busqueda de aliados que nos ayuden a cubrir estos
             gastos, puedes convertirte en backer (personas) o sponsor
             (organizaciones o empresas) contactándote con nosotros,{" "}

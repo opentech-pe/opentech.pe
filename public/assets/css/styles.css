@@ -44,3 +44,11 @@ h1,
 h2 {
   @apply font-big;
 }
+
+p {
+  @apply font-small text-2xl;
+}
+
+section {
+  @apply my-16;
+}
