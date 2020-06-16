@@ -20,7 +20,7 @@ export default function Index() {
           </h1>
         </section>
         <section>
-          <p className="font-small text-2xl">
+          <p>
             Bienvenido a la comunidad de usuarios apasionados por la tecnología
             en Tingo María, Perú. Como a tí, nos encanta la tecnología y hablar
             de ella; nos reunimos una vez al mes: el segundo jueves de cada mes,
