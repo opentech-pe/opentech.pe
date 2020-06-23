@@ -1,16 +1,13 @@
-import Head from "next/head";
 import Link from "next/link"
 
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
+import PageHead from "../components/page-head"
 
 export default function Index() {
   return (
     <>
-      <Head>
-        <title>OpenTech</title>
-        <link rel="icon" href="/assets/img/logo.png" />
-      </Head>
+      <PageHead titleHead="Home | OpenTech"/>
       <Navbar />
       <main className="px-3 md:px-48">
         <section className="mb-20 mt-10">
