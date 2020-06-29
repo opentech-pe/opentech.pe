@@ -14,7 +14,7 @@ export default function PageHead({titleHead}){
         <meta name="author" content="OpenTech" />
         <meta
           name="subject"
-          content="Comunidad de usuarios de apasionados por la tecnología en Tingo María"
+          content="Comunidad de usuarios apasionados por la tecnología en Tingo María"
         />
         <meta name="pagename" content="OpenTech" />
         <meta name="HandheldFriendly" content="True" />
@@ -68,7 +68,7 @@ export default function PageHead({titleHead}){
         />
         <meta
           name="twitter:summary"
-          content="Comunidad de usuarios de apasionados por la tecnología en Tingo María"
+          content="Comunidad de usuarios apasionados por la tecnología en Tingo María"
         />
         <link rel="prefetch" href="/" />
         <link rel="prefetch" href="/code-of-conduct" />
