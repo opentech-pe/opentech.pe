@@ -12,7 +12,7 @@ export default function Custom404(){
   return (
       <>
         <PageHead titleHead="404 | OpenTech"/>
-        <section className="flex flex-col items-center justify-center h-screen px-3">
+        <section className="flex flex-col items-center justify-center h-screen px-3 my-0">
           <h1 className="flex text-9xl md:text-12xl">
             4
             <img className={`h-40 mr-4 md:h-48 ${visible ? '' : 'hidden'}`} src="/assets/img/death.png" alt="mac-dead"/>
