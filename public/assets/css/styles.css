@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap");
+@import url("https://unpkg.com/nes.css@2.3.0/css/nes.min.css");
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+body {
+  @apply text-gray-900 bg-gray-100;
+}
+
+main {
+  @apply w-full mx-auto;
+}
+
+@screen sm {
+  main,
+  nav {
+    max-width: theme("screens.sm");
+  }
+}
+@screen md {
+  main,
+  nav {
+    max-width: theme("screens.md");
+  }
+}
+@screen lg {
+  main,
+  nav {
+    max-width: theme("screens.lg");
+  }
+}
+@screen xl {
+  main,
+  nav {
+    max-width: theme("screens.xl");
+  }
+}
+
+h1,
+h2 {
+  @apply font-big;
+}
+
+p {
+  @apply font-small text-2xl;
+}
+
+section {
+  @apply my-16;
+}

@@ -2,20 +2,37 @@
 
 ## Usage
 
-Install the dependencies with yarn
+Install the dependencies
 
-```
+```bash
+npm install
+# or
 yarn install
 ```
 
-Don't forget adding your environment variables in a file `.env`
-You can use this example [.env.examples](/.env.examples)
+~~Don't forget adding your environment variables in a file `.env`
+You can use this example [.env.examples](/.env.examples)~~
 
-Then run the project in local with the following command
+## Getting started
 
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
 ```
-yarn start
-```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Learn more about Next.js
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 ## Bugs
 
