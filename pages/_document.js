@@ -79,6 +79,13 @@ export default class MyDocument extends Document {
 					/>
 					<link rel="prefetch" href="/" />
 					<link rel="prefetch" href="/code-of-conduct" />
+          {/* <!-- Imports --> */}
+          <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+            rel="stylesheet"/>
+          <link 
+            href="https://unpkg.com/nes.css/css/nes.css"
+            rel="stylesheet"/>
 				</Head>
 				<body>
 					<Main/>
