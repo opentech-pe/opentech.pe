@@ -1,6 +1,5 @@
 import Link from "next/link";
-
-import PageHead from "../components/page-head"
+import Head from "next/head";
 
 export default function Custom404(){
   const [visible, setVisible] = React.useState(true)
@@ -11,7 +10,9 @@ export default function Custom404(){
 
   return (
       <>
-        <PageHead titleHead="404 | OpenTech"/>
+        <Head>
+          <title>404 | OpenTech</title>
+        </Head>
         <section className="flex flex-col items-center justify-center h-screen px-3 my-0">
           <h1 className="flex text-9xl md:text-12xl">
             4
