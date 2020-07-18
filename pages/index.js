@@ -7,9 +7,6 @@ import Footer from "../components/footer";
 export default function Index() {
   return (
     <>
-      <Head>
-        <title>Home | OpenTech</title>
-      </Head>
       <Navbar />
       <main className="px-3 md:px-48">
         <section className="mb-20 mt-10">
