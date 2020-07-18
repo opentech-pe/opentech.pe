@@ -18,3 +18,7 @@ p {
 section {
   @apply my-16;
 }
+
+a {
+  @apply no-underline #{!important};
+}
