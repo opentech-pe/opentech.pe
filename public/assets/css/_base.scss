@@ -1,0 +1,24 @@
+body {
+  @apply text-gray-900 bg-gray-100;
+}
+
+main {
+  @apply w-full mx-auto;
+}
+
+h1,
+h2 {
+  @apply font-big;
+}
+
+p {
+  @apply font-small text-2xl;
+}
+
+section {
+  @apply my-16;
+}
+
+a {
+  @apply no-underline #{!important};
+}

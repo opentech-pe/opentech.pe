@@ -1,11 +1,14 @@
+import Head from "next/head"
+
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-import PageHead from "../components/page-head"
 
 export default function CodeOfConduct() {
   return (
     <>
-    <PageHead titleHead="Code Of Conduct | OpenTech"/>
+    <Head>
+      <title>Code Of Conduct | OpenTech</title>
+    </Head>
     <Navbar />
     <main className="px-3 md:px-48">
       <section className="mb-16 mt-10">

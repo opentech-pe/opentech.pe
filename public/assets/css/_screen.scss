@@ -1,0 +1,24 @@
+@screen sm {
+  main,
+  nav {
+    max-width: theme("screens.sm");
+  }
+}
+@screen md {
+  main,
+  nav {
+    max-width: theme("screens.md");
+  }
+}
+@screen lg {
+  main,
+  nav {
+    max-width: theme("screens.lg");
+  }
+}
+@screen xl {
+  main,
+  nav {
+    max-width: theme("screens.xl");
+  }
+}
