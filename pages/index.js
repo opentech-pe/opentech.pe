@@ -41,11 +41,11 @@ export default function Index() {
             parte de nuestra comunidad en Slack donde nos encontraras todos los
             días para seguir hablando.
           </p>
-          <div className="flex justify-center text-xl my-10">
-            <a className="nes-btn is-primary font-small mx-5" href="https://www.facebook.com/OpenTechTM" target="_blank" rel="noopener noreferrer">
+          <div className="flex flex-col md:flex-row justify-center text-xl my-10">
+            <a className="nes-btn is-primary font-small mx-5 my-3 md:my-0" href="https://www.facebook.com/OpenTechTM" target="_blank" rel="noopener noreferrer">
               Siguenos en Facebook
             </a>
-            <a className="nes-btn is-primary font-small mx-5" href="https://hola-opentech.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <a className="nes-btn is-primary font-small mx-5 my-3 md:my-0" href="https://hola-opentech.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               Únete a nuestro Slack
             </a>
           </div>
@@ -83,14 +83,14 @@ export default function Index() {
             (organizaciones o empresas) contactándote con nosotros,{" "}
             <a className="text-blue-500" href="mailto:paulotijero@gmail.com?cc=loloy.laurencio@gmail.com">¡Envianos un correo!</a>
           </p>
-          <div className="flex justify-center text-xl my-10">
+          <div className="flex flex-col md:flex-row justify-center text-xl my-10">
             <Link href="/incomplete">
-              <button type="button" className="nes-btn is-primary font-small mx-5">
+              <button type="button" className="nes-btn is-primary font-small mx-5 my-3 md:my-0">
                 Conoce a nuestros backers
               </button>
             </Link>
             <Link href="/incomplete">
-              <button type="button" className="nes-btn is-primary font-small mx-5">
+              <button type="button" className="nes-btn is-primary font-small mx-5 my-3 md:my-0">
                 Conoce a nuestros sponsors
               </button>
             </Link>
