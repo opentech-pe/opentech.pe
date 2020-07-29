@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="text-white bg-blue-500 font-big py-3 px-8 md:py-8">
-      <nav className="flex justify-between item-center mx-auto"> 
-        <ul className="flex item-center mr-3 text-2xl md:text-3xl">
+      <nav className="flex justify-between items-center mx-auto"> 
+        <ul className="flex mr-3 text-2xl md:text-3xl">
           <li>
             <Link href="/">
             <a title="OpenTech">
