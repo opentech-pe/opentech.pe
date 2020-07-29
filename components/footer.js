@@ -11,7 +11,7 @@ export default function Footer() {
               <span className="hidden md:block">
                 OpenTech
               </span>
-              <span className="ml-4 block md:hidden">
+              <span className="block md:hidden">
                 OT
               </span>
             </a>
