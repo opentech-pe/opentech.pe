@@ -8,7 +8,12 @@ export default function Navbar() {
           <li>
             <Link href="/">
               <a title="OpenTech">
-                Open<span className="text-blue-500">Tech</span>
+                <span className="hidden md:block">
+                  Open<span className="text-blue-500">Tech</span>
+                </span>
+                <span className="ml-4 block md:hidden">
+                  O<span className="text-blue-500">T</span>
+                </span>
               </a>
             </Link>
           </li>

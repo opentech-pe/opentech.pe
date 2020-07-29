@@ -7,7 +7,14 @@ export default function Footer() {
         <ul className="flex item-center mr-3 text-2xl md:text-3xl">
           <li>
             <Link href="/">
-              <a title="OpenTech">OpenTech</a>
+            <a title="OpenTech">
+              <span className="hidden md:block">
+                OpenTech
+              </span>
+              <span className="ml-4 block md:hidden">
+                OT
+              </span>
+            </a>
             </Link>
           </li>
         </ul>
