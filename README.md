@@ -11,13 +11,13 @@ Los canales oficiales para ponerte en contacto son:
 - [GitHub](https://github.com/opentech-pe)
 - [Slack](https://hola-opentech.herokuapp.com/)
 
-## Comunidad de Tecnología
+## :earth_americas: Comunidad de Tecnología
 
 Como a tí, nos encanta la tecnología y hablar de ella, puedes formar parte de nuestra comunidad en Slack donde puedes encontrarnos todos los días para seguir hablando.
 
 [Únete a nuestro slack](https://hola-opentech.herokuapp.com/)
 
-## Espacio Libre y Abierto
+## :mortar_board: Espacio Libre y Abierto
 
 Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de charlas. Si hay algo en lo que eres experto o estas aprendiendo, la mejor forma de aprender es enseñar.
 
@@ -29,6 +29,6 @@ _NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, n
 
 ¿Quieres que tu empresa u organización patrocine estos eventos? (Acá puedes ver cómo participar como sponsor)[link para recaudos]. -->
 
-## Código de conducta
+## :scroll: Código de conducta
 
 Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUCT.md)
