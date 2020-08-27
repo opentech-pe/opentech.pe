@@ -1,4 +1,7 @@
 <p align="center">
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
   <img src="public/assets/img/logo-without-bg.png" width="320"/>
 </p>
 
@@ -32,3 +35,22 @@ _NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, n
 ## :scroll: Código de conducta
 
 Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUCT.md)
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/jimmy-erick-loloy-laurencio-4b12971a4/"><img src="https://avatars0.githubusercontent.com/u/49881423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jimmy Erick Loloy Laurencio</b></sub></a><br /><a href="https://github.com/Juancxh/opentech/commits?author=JimmyLoloy98" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
