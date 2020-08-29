@@ -45,12 +45,12 @@ Gracias a estas maravillosas personas ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/jimmy-erick-loloy-laurencio-4b12971a4/"><img src="https://avatars0.githubusercontent.com/u/49881423?v=4" width="100px;" alt=""/><br /><sub><b>Jimmy Erick Loloy Laurencio</b></sub></a><br /><a href="https://github.com/Juancxh/opentech.pe/commits?author=JimmyLoloy98" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/TesterJuancxh"><img src="https://avatars2.githubusercontent.com/u/70418277?v=4" width="100px;" alt=""/><br /><sub><b>TesterJuancxh</b></sub></a><br /><a href="https://github.com/Juancxh/opentech.pe/commits?author=TesterJuancxh" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/jimmy-erick-loloy-laurencio-4b12971a4/"><img src="https://avatars0.githubusercontent.com/u/49881423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jimmy Erick Loloy Laurencio</b></sub></a><br /><a href="https://github.com/Juancxh/opentech.pe/commits?author=JimmyLoloy98" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/TesterJuancxh"><img src="https://avatars2.githubusercontent.com/u/70418277?v=4?s=100" width="100px;" alt=""/><br /><sub><b>TesterJuancxh</b></sub></a><br /><a href="https://github.com/Juancxh/opentech.pe/commits?author=TesterJuancxh" title="Documentation">📖</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
