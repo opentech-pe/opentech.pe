@@ -26,7 +26,7 @@ Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de
 
 :speaker: [Propón una charla](https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+manuelrojasc&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+.) :metal:
 
-_NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, no dudes en abrir un issue o contactarnos por Slack. Nos encanta ayudar :wink: _
+_NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, no dudes en abrir un issue o contactarnos por Slack. Nos encanta ayudar_ :wink:
 
 <!-- ### Sponsors
 
@@ -38,7 +38,7 @@ Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUC
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Gracias a estas maravillosas personas ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -53,4 +53,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Este proyecto sigue la especificación de [all-contributors](https://github.com/all-contributors/all-contributors). ¡Contribuciones de cualquier tipo son bienvenidas!
