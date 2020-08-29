@@ -1,5 +1,5 @@
 {
-  "projectName": "opentech",
+  "projectName": "opentech.pe",
   "projectOwner": "Juancxh",
   "repoType": "github",
   "repoHost": "https://github.com",
@@ -18,7 +18,17 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "TesterJuancxh",
+      "name": "TesterJuancxh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/70418277?v=4",
+      "profile": "https://github.com/TesterJuancxh",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
