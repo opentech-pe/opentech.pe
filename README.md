@@ -35,16 +35,16 @@ _NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, n
 
 Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUCT.md)
 
-## Contributors ✨
+## ✨ Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Gracias a estas increibles personas ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/paulotijero"><img src="https://avatars2.githubusercontent.com/u/28131369?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paulo Tijero</b></sub></a><br /><a href="https://github.com/Juancxh/opentech/commits?author=paulotijero" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/paulotijero"><img src="https://avatars2.githubusercontent.com/u/28131369?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paulo Tijero</b></sub></a><br /><a href="https://github.com/Juancxh/opentech/commits?author=paulotijero" title="Code">💻</a> <a href="#projectManagement-paulotijero" title="Project Management">📆</a></td>
   </tr>
 </table>
 
@@ -52,4 +52,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+Este proyecto sigue la especificación de [all-contributors](https://github.com/all-contributors/all-contributors). ¡Contribuciones de cualquier tipo son bienvenidas!
