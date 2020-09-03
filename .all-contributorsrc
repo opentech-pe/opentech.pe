@@ -1,0 +1,25 @@
+{
+  "projectName": "opentech",
+  "projectOwner": "paulotijero",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "paulotijero",
+      "name": "Paulo Tijero",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28131369?v=4",
+      "profile": "https://github.com/paulotijero",
+      "contributions": [
+        "code",
+        "projectManagement"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
