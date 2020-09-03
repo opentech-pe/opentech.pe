@@ -4,7 +4,6 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f6ad4d4e-3128-43db-a06e-6f63790cba6c/deploy-status)](https://app.netlify.com/sites/opentech/deploys)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/opentech-pe/opentech.pe/blob/master/LICENSE)
 
 Este repositorio contiene la página web pública de [OpenTech](https://opentech.netlify.com/), la comunidad de usuarios amantes de la tecnología en Tingo María, Perú :peru: . 
