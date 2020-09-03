@@ -3,7 +3,9 @@
   "projectOwner": "paulotijero",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": [ "README.md" ],
+  "files": [
+    "README.md"
+  ],
   "contributorsPerLine": 7,
   "imageSize": 100,
   "commit": true,
@@ -18,6 +20,15 @@
         "code",
         "projectManagement"
       ]
+    },
+    {
+      "login": "Juancxh",
+      "name": "Juan Campos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54485410?v=4",
+      "profile": "https://juancxh.com/",
+      "contributions": [
+        "code"
+      ]
     }
-  ],
+  ]
 }

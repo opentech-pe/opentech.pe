@@ -47,6 +47,7 @@ Gracias a estas increibles personas ([emoji key](https://allcontributors.org/doc
 <table>
   <tr>
     <td align="center"><a href="https://github.com/paulotijero"><img src="https://avatars2.githubusercontent.com/u/28131369?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paulo Tijero</b></sub></a><br /><a href="https://github.com/paulotijero/opentech/commits?author=paulotijero" title="Code">💻</a> <a href="#projectManagement-paulotijero" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://juancxh.com/"><img src="https://avatars2.githubusercontent.com/u/54485410?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juan Campos</b></sub></a><br /><a href="https://github.com/paulotijero/opentech/commits?author=Juancxh" title="Code">💻</a></td>
   </tr>
 </table>
 
