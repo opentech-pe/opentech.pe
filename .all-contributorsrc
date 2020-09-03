@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Juancxh",
+      "name": "Juan Campos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54485410?v=4",
+      "profile": "https://juancxh.com/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "opentech.pe",
+  "projectOwner": "opentech-pe",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
