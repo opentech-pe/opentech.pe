@@ -19,6 +19,16 @@
         "code",
         "projectManagement"
       ]
+    },
+    {
+      "login": "Juancxh",
+      "name": "Juan Campos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54485410?v=4",
+      "profile": "https://juancxh.com/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7
