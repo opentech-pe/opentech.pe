@@ -53,4 +53,4 @@ Gracias a estas increibles personas ([emoji key](https://allcontributors.org/doc
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Este proyecto sigue la especificación de [all-contributors](https://github.com/all-contributors/all-contributors). ¡Contribuciones de cualquier tipo son bienvenidas!
+_Este proyecto sigue la especificación de [all-contributors](https://github.com/all-contributors/all-contributors). ¡Contribuciones de cualquier tipo son bienvenidas!_
