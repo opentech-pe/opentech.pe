@@ -86,6 +86,7 @@ export default class MyDocument extends Document {
           <link 
             href="https://unpkg.com/nes.css/css/nes.css"
             rel="stylesheet"/>
+          <title>Home | OpenTech</title>
         </Head>
         <body>
           <Main/>
