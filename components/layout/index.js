@@ -1,10 +1,9 @@
 import Head from 'next/head'
 
 import Navbar from '../navbar'
-import footer from '../footer'
 import Footer from '../footer'
 
-export default function Layout({children, title = 'OpenTech'}){
+export default function Layout({children, title = 'OpenTech', nav_foo = true}){
   return (
     <>
       <Head> {/* <!-- Primary Meta Tags --> */}
@@ -56,13 +55,15 @@ export default function Layout({children, title = 'OpenTech'}){
         <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet"/>
       </Head>
 
-      <header>
-        <Navbar />
-      </header>
+      { nav_foo ? 
+          <header>
+            <Navbar />
+          </header> 
+          : '' }
 
       {children}
       
-      <Footer/>
+      { nav_foo ? <Footer/> : ''}
     </>
   )
 }

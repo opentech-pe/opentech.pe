@@ -1,12 +1,10 @@
 import Link from "next/link"
 
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Layout from "../components/layout";
 
 export default function Index() {
   return (
-    <>
-      <Navbar />
+    <Layout title="OpenTech">
       <main className="px-3 md:px-48">
         <section className="mb-20 mt-10">
           <img className="mx-auto my-2" src="/assets/img/logo-without-bg.png" />
@@ -96,7 +94,6 @@ export default function Index() {
           </div>
         </section>
       </main>
-      <Footer />
-    </>
+    </Layout>
   );
 }
