@@ -25,8 +25,17 @@ export default function Navbar() {
             </Link>
           </li>
           <li className="flex justify-center w-40">
-            <a href="https://github.com/opentech-pe" className="flex items-center" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/img/github.gif" alt="github" className="mr-2 h-8 w-8"/>
+            <a
+              href="https://github.com/opentech-pe"
+              className="flex items-center"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/img/github.gif"
+                alt="github"
+                className="mr-2 h-8 w-8"
+              />
               <span>Github</span>
             </a>
           </li>
