@@ -10,7 +10,9 @@
     "deploy": "yarn build && yarn export"
   },
   "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
     "next": "^9.3.0",
+    "postcss": "^7",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "sass": "^1.26.10"
@@ -18,7 +20,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "all-contributors-cli": "^6.17.2",
-    "autoprefixer": "^9.7.4",
-    "tailwindcss": "^1.2.0"
+    "autoprefixer": "^9",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }
