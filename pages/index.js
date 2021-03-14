@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 import Layout from "../components/layout";
 
@@ -23,14 +23,13 @@ export default function Index() {
             curiosidad y muchas ganas de aprender.
           </p>
           <div className="flex justify-center text-xl my-10">
-            <Link 
-              href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MHJibHAxNmdhYzlkNzlyNW00bTM1bzUzdmpfMjAyMTAzMTdUMDAwMDAwWiA4YW5pYWpqcjYxbjVtbXAwYTQ1amplZzF1NEBn&tmsrc=8aniajjr61n5mmp0a45jjeg1u4%40group.calendar.google.com&scp=ALL"
-            >
-              <a 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                type="button" 
-                className="nes-btn is-primary font-small">
+            <Link href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MHJibHAxNmdhYzlkNzlyNW00bTM1bzUzdmpfMjAyMTAzMTdUMDAwMDAwWiA4YW5pYWpqcjYxbjVtbXAwYTQ1amplZzF1NEBn&tmsrc=8aniajjr61n5mmp0a45jjeg1u4%40group.calendar.google.com&scp=ALL">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                type="button"
+                className="nes-btn is-primary font-small"
+              >
                 Agendar al Google Calendar
               </a>
             </Link>
@@ -45,10 +44,20 @@ export default function Index() {
             días para seguir hablando.
           </p>
           <div className="flex flex-col md:flex-row justify-center text-xl my-10">
-            <a className="nes-btn is-primary font-small mx-5 my-3 md:my-0" href="https://www.facebook.com/OpenTechTM" target="_blank" rel="noopener noreferrer">
+            <a
+              className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
+              href="https://www.facebook.com/OpenTechTM"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Siguenos en Facebook
             </a>
-            <a className="nes-btn is-primary font-small mx-5 my-3 md:my-0" href="https://hola-opentech.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <a
+              className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
+              href="https://hola-opentech.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Únete a nuestro Slack
             </a>
           </div>
@@ -61,7 +70,12 @@ export default function Index() {
             aprendiendo, la mejor forma de aprender es enseñar.
           </p>
           <div className="flex justify-center text-xl my-10">
-            <a className="nes-btn is-primary font-small mx-5" href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+JimmyLoloy98&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla+.+.+." target="_blank" rel="noopener noreferrer">
+            <a
+              className="nes-btn is-primary font-small mx-5"
+              href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+JimmyLoloy98&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla+.+.+."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Proponer una charla
             </a>
           </div>
@@ -84,16 +98,27 @@ export default function Index() {
             Así que estamos en busqueda de aliados que nos ayuden a cubrir estos
             gastos, puedes convertirte en backer (personas) o sponsor
             (organizaciones o empresas) contactándote con nosotros,{" "}
-            <a className="text-blue-500" href="mailto:paulotijero@gmail.com?cc=loloy.laurencio@gmail.com">¡Envianos un correo!</a>
+            <a
+              className="text-blue-500"
+              href="mailto:paulotijero@gmail.com?cc=loloy.laurencio@gmail.com"
+            >
+              ¡Envianos un correo!
+            </a>
           </p>
           <div className="flex flex-col md:flex-row justify-center text-xl my-10">
             <Link href="/incomplete">
-              <button type="button" className="nes-btn is-primary font-small mx-5 my-3 md:my-0">
+              <button
+                type="button"
+                className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
+              >
                 Conoce a nuestros backers
               </button>
             </Link>
             <Link href="/incomplete">
-              <button type="button" className="nes-btn is-primary font-small mx-5 my-3 md:my-0">
+              <button
+                type="button"
+                className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
+              >
                 Conoce a nuestros sponsors
               </button>
             </Link>
