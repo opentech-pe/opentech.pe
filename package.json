@@ -5,21 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "export": "next export",
     "deploy": "yarn build && yarn export"
   },
   "dependencies": {
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
     "next": "^9.3.0",
     "postcss": "^7",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "sass": "^1.26.10"
+    "sass": "^1.26.10",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "all-contributors-cli": "^6.17.2",
-    "autoprefixer": "^9"
+    "autoprefixer": "^9",
+    "next-sitemap": "^1.5.16"
   }
 }
