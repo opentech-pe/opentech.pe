@@ -23,10 +23,16 @@ export default function Index() {
             curiosidad y muchas ganas de aprender.
           </p>
           <div className="flex justify-center text-xl my-10">
-            <Link href="/incomplete">
-              <button type="button" className="nes-btn is-primary font-small">
+            <Link 
+              href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MHJibHAxNmdhYzlkNzlyNW00bTM1bzUzdmpfMjAyMTAzMTdUMDAwMDAwWiA4YW5pYWpqcjYxbjVtbXAwYTQ1amplZzF1NEBn&tmsrc=8aniajjr61n5mmp0a45jjeg1u4%40group.calendar.google.com&scp=ALL"
+            >
+              <a 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                type="button" 
+                className="nes-btn is-primary font-small">
                 Agendar al Google Calendar
-              </button>
+              </a>
             </Link>
           </div>
         </section>
