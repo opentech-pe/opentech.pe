@@ -26,7 +26,7 @@ export default function Footer() {
             </a>
           </li>
           <li className="text-center w-40 mr-6 md:m-0">
-            <Link href="/previous-event">
+            <Link href="/previous-events">
               <a title="Eventos anteriores">Eventos anteriores</a>
             </Link>
           </li>
