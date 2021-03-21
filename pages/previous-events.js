@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import Events from '../src/data/events.json'
 
 export default function PreviousEvents() {
+
   return (
     <Layout title="Eventos anteriores| OpenTech">
       <main className="px-3 md:px-48">
@@ -12,29 +13,30 @@ export default function PreviousEvents() {
           </h1>
         </section>
         <section>
-          {
-            Events.map((event) =>{
-              return <div className="mb-10">
-                <h2 className="font-big mb-5 text-xl">{event.date}</h2>
-                <p>El día {event.day} tuvimos las siguientes charlas:</p>
-                <div className="ml-5">
-                  <ul>
-                    {
-                      event.talks.map(talk =>{
-                        return <li>
-                          <p>&#35; {talk.title} - <span className="text-blue-500">{talk.speaker}</span>&#32;<a href={talk.slide} target="_blank">slide</a>&#32;<a href={talk.speaker_link} target="_blank">social</a>
-                          </p>
-                        </li>
-                      })
-                    }
-                  </ul>
-                </div>
-                <p>Mira las fotos del evento <a href={event.photos} target="_blank">photos</a></p>
+          { Events.map((event,i) => (
+            <div key={`event#${i}`} className="mb-10">
+              <h2 className="font-big mb-5 text-xl">{event.date}</h2>
+              <p>El día {event.day} tuvimos las siguientes charlas:</p>
+              <div className="ml-5">
+                <ul>
+                  {
+                    event.talks.map((talk, i) => (
+                      <li key={`talk#${i}`}>
+                        <p>#{talk.title} -
+                          <span className="text-blue-500">{talk.speaker}</span>#
+                          <a href={talk.slide} target="_blank">slide</a>#
+                          <a href={talk.speaker_link} target="_blank">social</a>
+                        </p>
+                      </li>)
+                    )
+                  }
+                </ul>
               </div>
-            })
-          }
+              <p>Mira las fotos del evento <a href={event.photos} target="_blank">photos</a></p>
+            </div>
+          ))}
         </section>
-        
+
       </main>
     </Layout>
   );
