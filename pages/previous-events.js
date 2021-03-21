@@ -1,7 +1,18 @@
+import fetch from 'node-fetch';
 import Layout from "../components/layout";
-import Events from "../src/data/events.json";
 
-export default function PreviousEvents() {
+export async function getServerSideProps(ctx) {
+
+  const result = await fetch(`${process.env.BASE_PATH}/api/events`)
+  const data = await result.json()
+
+  return { 
+    props: { data }
+  }
+};
+
+export default function PreviousEvents({ data }) {
+
   return (
     <Layout title="Eventos anteriores| OpenTech">
       <main className="px-3 md:px-48">
@@ -11,7 +22,7 @@ export default function PreviousEvents() {
           </h1>
         </section>
         <section>
-          {Events.map((event, i) => (
+          {data.map((event, i) => (
             <div key={`event#${i}`} className="mb-10">
               <h2 className="font-big mb-5 text-xl">{event.date}</h2>
               <p>El día {event.day} tuvimos las siguientes charlas:</p>
