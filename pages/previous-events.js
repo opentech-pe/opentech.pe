@@ -1,17 +1,30 @@
 import fetch from 'node-fetch';
+import ErrorPage from 'next/error'
+
 import Layout from "../components/layout";
 
 export async function getServerSideProps(ctx) {
 
-  const result = await fetch(`${process.env.BASE_PATH}/api/events`)
-  const data = await result.json()
-
-  return { 
-    props: { data }
+  try {
+    const result = await fetch(`${process.env.BASE_PATH}/api/events`)
+    const data = await result.json()
+  
+    return { 
+      props: { data }
+    }
+  } catch {
+    ctx.res.statusCode = 404
+    return {
+      props: {}
+    }
   }
 };
 
 export default function PreviousEvents({ data }) {
+
+  if (!data) {
+    return <ErrorPage statusCode={404} />;
+  }
 
   return (
     <Layout title="Eventos anteriores| OpenTech">
