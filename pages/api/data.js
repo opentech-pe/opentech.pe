@@ -1,4 +1,4 @@
-[
+export const events = [
   {
     "date": "Octubre 2019",
     "day": "10",
