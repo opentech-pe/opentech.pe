@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Navbar from '../shared/navbar'
 import Footer from '../shared/footer'
+import Symbols from '../shared/symbols'
 
 export default function Layout({children, title = 'OpenTech', nav_foo = true}){
   return (
@@ -63,6 +64,7 @@ export default function Layout({children, title = 'OpenTech', nav_foo = true}){
 
       {children}
       
+      <Symbols/>
       { nav_foo ? <Footer/> : ''}
     </>
   )
