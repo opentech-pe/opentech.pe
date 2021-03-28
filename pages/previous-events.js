@@ -1,7 +1,31 @@
-import Layout from "../components/layout";
-import Events from "../src/data/events.json";
+import fetch from 'node-fetch';
+import ErrorPage from 'next/error'
 
-export default function PreviousEvents() {
+import Layout from "../components/layout";
+
+export async function getServerSideProps(ctx) {
+
+  try {
+    const result = await fetch(`${process.env.BASE_PATH}/api/events`)
+    const data = await result.json()
+  
+    return { 
+      props: { data }
+    }
+  } catch {
+    ctx.res.statusCode = 404
+    return {
+      props: {}
+    }
+  }
+};
+
+export default function PreviousEvents({ data }) {
+
+  if (!data) {
+    return <ErrorPage statusCode={404} />;
+  }
+
   return (
     <Layout title="Eventos anteriores| OpenTech">
       <main className="px-3 md:px-48">
@@ -11,7 +35,7 @@ export default function PreviousEvents() {
           </h1>
         </section>
         <section>
-          {Events.map((event, i) => (
+          {data.map((event, i) => (
             <div key={`event#${i}`} className="mb-10">
               <h2 className="font-big mb-5 text-xl">{event.date}</h2>
               <p>El día {event.day} tuvimos las siguientes charlas:</p>
