@@ -40,7 +40,7 @@ export default function Index() {
           <p>
             Lo ideal es que nos sigas a través de nuestro Facebook para
             enterarte de nuestros meetups y actividades. Puedes también formar
-            parte de nuestra comunidad en Slack donde nos encontraras todos los
+            parte de nuestra comunidad en Discord donde nos encontraras todos los
             días para seguir hablando.
           </p>
           <div className="flex flex-col md:flex-row justify-center text-xl my-10">
@@ -54,11 +54,11 @@ export default function Index() {
             </a>
             <a
               className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
-              href="https://hola-opentech.herokuapp.com/"
+              href="https://discord.gg/vYPgXbwb"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Únete a nuestro Slack
+              Únete al Discord
             </a>
           </div>
         </section>

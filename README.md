@@ -13,13 +13,13 @@ Este repositorio contiene la página web pública de [OpenTech](https://opentech
 Los canales oficiales para ponerte en contacto son:
 
 - [GitHub](https://github.com/opentech-pe)
-- [Slack](https://hola-opentech.herokuapp.com/)
+- [Discord](https://discord.gg/vYPgXbwb)
 
 ## :earth_americas: Comunidad de Tecnología
 
-Como a tí, nos encanta la tecnología y hablar de ella, puedes formar parte de nuestra comunidad en Slack donde puedes encontrarnos todos los días para seguir hablando.
+Como a tí, nos encanta la tecnología y hablar de ella, puedes formar parte de nuestra comunidad en Discord donde puedes encontrarnos todos los días para seguir hablando.
 
-[Únete a nuestro slack](https://hola-opentech.herokuapp.com/)
+[Únete a nuestro discord](https://discord.gg/vYPgXbwb)
 
 ## :nerd_face: Espacio Libre y Abierto
 
@@ -27,7 +27,7 @@ Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de
 
 [Propón una charla](https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+manuelrojasc&labels=cfp&template=propuesta-de-charla.md&title=Título+de+tu+charla+.+.+.)
 
-_NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, no dudes en abrir un issue o contactarnos por Slack. Nos encanta ayudar_ :wink:
+_NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, no dudes en abrir un issue o contactarnos por Discord. Nos encanta ayudar_ :wink:
 
 <!-- ### Sponsors
 
