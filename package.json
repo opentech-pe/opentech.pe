@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap",
+    "postbuild": "next-sitemap && next-on-netlify",
     "start": "next start",
     "export": "next export",
     "deploy": "yarn build && yarn export"
@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^9.0.0",
     "next": "^9.3.0",
+    "next-on-netlify": "^2.9.0",
     "node-fetch": "^2.6.1",
     "postcss": "^7",
     "react": "^16.13.0",
