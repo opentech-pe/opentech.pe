@@ -24,7 +24,7 @@ export default function CodeOfConduct() {
             independientemente de su género, orientación sexual, discapacidad, apariencia física, 
             talla, raza o religión. No toleramos abusos de los participantes a la conferencia 
             en ninguna de sus formas. El lenguaje e imágenes sexuales no son apropiados a ninguna 
-            sala del meetup, incluyendo charlas, talleres, fiestas, twitter, facebook, slack y otros 
+            sala del meetup, incluyendo charlas, talleres, fiestas, twitter, facebook, Discord y otros 
             medios online. Los participantes del meetup que violen estas reglas pueden ser 
             sancionados o expulsados de la misma, a discreción de los organizadores.
           </p>
