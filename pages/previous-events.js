@@ -1,4 +1,4 @@
-import fetch from 'node-fetch'
+import fetch from 'node-fetch';
 import ErrorPage from 'next/error'
 
 import Layout from "../components/layout";
