@@ -3,7 +3,7 @@ import ErrorPage from 'next/error'
 
 import Layout from "../components/layout";
 
-export async function getServerSideProps(ctx) {
+export async function getStaticProps(ctx) {
 
   try {
     const result = await fetch(`${process.env.BASE_PATH}/api/events`)
