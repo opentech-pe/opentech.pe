@@ -1,28 +1,11 @@
-import fetch from 'node-fetch'
 import ErrorPage from 'next/error'
 
-import Layout from "../components/layout";
+import { events } from '../data'
+import Layout from "../components/layout"; 
 
-export async function getStaticProps(ctx) {
+export default function PreviousEvents() {
 
-  try {
-    const result = await fetch(`${process.env.BASE_PATH}/api/events`)
-    const data = await result.json()
-  
-    return { 
-      props: { data }
-    }
-  } catch {
-    ctx.res.statusCode = 404
-    return {
-      props: {}
-    }
-  }
-};
-
-export default function PreviousEvents({ data }) {
-
-  if (!data) {
+  if (!events) {
     return <ErrorPage statusCode={404} />;
   }
 
@@ -35,7 +18,7 @@ export default function PreviousEvents({ data }) {
           </h1>
         </section>
         <section>
-          {data.map((event, i) => (
+          {events.map((event, i) => (
             <div key={`event#${i}`} className="mb-10">
               <h2 className="font-big mb-5 text-xl">{event.date}</h2>
               <p>El día {event.day} tuvimos las siguientes charlas:</p>
