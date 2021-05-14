@@ -23,7 +23,7 @@ export default function Index() {
             curiosidad y muchas ganas de aprender.
           </p>
           <div className="flex justify-center text-xl my-10">
-            <Link href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MHJibHAxNmdhYzlkNzlyNW00bTM1bzUzdmpfMjAyMTAzMTdUMDAwMDAwWiA4YW5pYWpqcjYxbjVtbXAwYTQ1amplZzF1NEBn&tmsrc=8aniajjr61n5mmp0a45jjeg1u4%40group.calendar.google.com&scp=ALL">
+            <Link href="https://calendar.google.com/calendar/u/0?cid=cmkwdnRzMnAxMW43MWFobHRtcnVzOWtyMGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
