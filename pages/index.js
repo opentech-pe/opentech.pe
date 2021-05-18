@@ -54,7 +54,7 @@ export default function Index() {
             </a>
             <a
               className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
-              href="https://discord.gg/vYPgXbwb"
+              href="https://discord.gg/qZ9zATH5sN"
               target="_blank"
               rel="noopener noreferrer"
             >
