@@ -100,7 +100,7 @@ export default function Index() {
             (organizaciones o empresas) contactándote con nosotros,{" "}
             <a
               className="text-blue-500"
-              href="mailto:paulotijero@gmail.com?cc=loloy.laurencio@gmail.com"
+              href="mailto:hola@opentech.pe"
             >
               ¡Envianos un correo!
             </a>
