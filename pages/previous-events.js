@@ -1,7 +1,7 @@
 import ErrorPage from 'next/error'
 
 import { events } from '../data'
-import Layout from "../components/layout"; 
+import Layout from "../components/layout";
 
 export default function PreviousEvents() {
 
@@ -32,7 +32,7 @@ export default function PreviousEvents() {
                       <p className="hidden md:inline-block">&nbsp;-&nbsp;</p>
                       <p className="text-blue-500">
                         {talk.speaker}
-                        <a
+                        {talk.slide && <a
                           href={talk.slide}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -42,8 +42,8 @@ export default function PreviousEvents() {
                           <svg className="h-3 w-3">
                             <use xlinkHref="#slide" />
                           </svg>
-                        </a>
-                        <a
+                        </a>}
+                        {talk.social_network && <a
                           href={talk.speaker_link}
                           target="_blank"
                           rel="noopener noreferrer"
@@ -53,9 +53,9 @@ export default function PreviousEvents() {
                           <svg className="h-3 w-3">
                             <use xlinkHref={`#${talk.social_network}`} />
                           </svg>
-                        </a>
+                        </a>}
                       </p>
-                      
+
                     </li>
                   ))}
                 </ul>
