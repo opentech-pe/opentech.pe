@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/opentech-pe/opentech.pe/blob/master/LICENSE)
 [![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2022/opentech-pe/opentech.pe?style=flat-square)](https://github.com/opentech-pe/opentech.pe/issues)
 
-Este repositorio contiene la página web pública de [OpenTech](https://opentech.netlify.com/), la comunidad de usuarios amantes de la tecnología en Tingo María, Perú :peru: . 
+Este repositorio contiene la página web pública de [OpenTech](https://opentech.netlify.com/), la comunidad de usuarios amantes de la tecnología en Tingo María, Perú :peru: .
 
   > Nos reunimos una vez al mes: el tercer martes de cada mes, nos juntamos de 7:00 pm a 9:00 pm para escuchar charlas sobre tecnologías y temas relacionados. Estas reuniones son gratuitas, libres y todos son bienvenidos. No se requiere invitación o nivel de conocimiento.
 
@@ -49,6 +49,7 @@ Gracias a estas increibles personas ([emoji key](https://allcontributors.org/doc
   <tr>
     <td align="center"><a href="https://github.com/paulotijero"><img src="https://avatars2.githubusercontent.com/u/28131369?v=4" width="100px;" alt=""/><br /><sub><b>Paulo Tijero</b></sub></a><br /><a href="https://github.com/opentech-pe/opentech.pe/commits?author=paulotijero" title="Code">💻</a> <a href="#projectManagement-paulotijero" title="Project Management">📆</a></td>
     <td align="center"><a href="https://juancxh.com/"><img src="https://avatars2.githubusercontent.com/u/54485410?v=4" width="100px;" alt=""/><br /><sub><b>Juan Campos</b></sub></a><br /><a href="https://github.com/opentech-pe/opentech.pe/commits?author=Juancxh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jimmyloloy98"><img src="https://avatars.githubusercontent.com/u/49881423" width="100px;" alt=""/><br /><sub><b>Jimmy Loloy</b></sub></a><br /><a href="https://github.com/opentech-pe/opentech.pe/commits?author=JimmyLoloy98" title="Code">💻</a></td>
   </tr>
 </table>
 
