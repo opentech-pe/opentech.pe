@@ -29,6 +29,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JimmyLoloy98",
+      "name": "Jimmy Loloy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49881423",
+      "profile": "https://github.com/jimmyloloy98",
+      "contributions": [
+        "code",
+        "mantainer"
+      ]
     }
   ],
   "skipCi": true
