@@ -5,10 +5,10 @@ import Layout from "../components/layout";
 export default function Index() {
   return (
     <Layout title="OpenTech">
-      <main className="px-3 md:px-48">
+      <main className="px-3 lg:px-48 md:px-20">
         <section className="mb-20 mt-10">
           <img className="mx-auto my-2" src="/assets/img/logo-without-bg.png" />
-          <h1 className="font-big text-center md:text-5xl">
+          <h1 className="font-big text-center text-3xl md:text-5xl">
             La tecnología es nuestra pasión.
           </h1>
         </section>
@@ -40,8 +40,8 @@ export default function Index() {
           <p>
             Lo ideal es que nos sigas a través de nuestro Facebook para
             enterarte de nuestros meetups y actividades. Puedes también formar
-            parte de nuestra comunidad en Discord donde nos encontraras todos los
-            días para seguir hablando.
+            parte de nuestra comunidad en Discord donde nos encontraras todos
+            los días para seguir hablando.
           </p>
           <div className="flex flex-col md:flex-row justify-center text-xl my-10">
             <a
@@ -98,10 +98,7 @@ export default function Index() {
             Así que estamos en busqueda de aliados que nos ayuden a cubrir estos
             gastos, puedes convertirte en backer (personas) o sponsor
             (organizaciones o empresas) contactándote con nosotros,{" "}
-            <a
-              className="text-blue-500"
-              href="mailto:hola@opentech.pe"
-            >
+            <a className="text-blue-500" href="mailto:hola@opentech.pe">
               ¡Envianos un correo!
             </a>
           </p>
