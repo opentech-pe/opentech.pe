@@ -22,6 +22,17 @@ export default function Layout({children, title = 'OpenTech', nav_foo = true}){
         <meta name="apple-mobile-web-app-title" content="OpenTech" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta href="/atom.xml" type="application/atom+xml" rel="alternate" title="OpenTech" />
+
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:3216561,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
       </Head>
 
       <Head> {/* <!-- Open Graph / Facebook --> */}
@@ -56,14 +67,14 @@ export default function Layout({children, title = 'OpenTech', nav_foo = true}){
         <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet"/>
       </Head>
 
-      { nav_foo ? 
+      { nav_foo ?
           <header>
             <Navbar />
-          </header> 
+          </header>
           : '' }
 
       {children}
-      
+
       <Symbols/>
       { nav_foo ? <Footer/> : ''}
     </>
