@@ -33,6 +33,8 @@ export default function Layout({children, title = 'OpenTech', nav_foo = true}){
                 a.appendChild(r);
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         </script>
+
+        <script>alert("Hola")</script>
       </Head>
 
       <Head> {/* <!-- Open Graph / Facebook --> */}
