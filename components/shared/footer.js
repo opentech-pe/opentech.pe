@@ -23,7 +23,7 @@ export default function Footer() {
           <li className="text-center w-40 mr-6 md:m-0">
             <a
               title="Dar una charla"
-              href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=paulotijero%2C+JimmyLoloy98&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla+.+.+."
+              href="https://github.com/opentech-pe/opentech.pe/issues/new?template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla"
               target="_blank"
               rel="noopener noreferrer"
             >
