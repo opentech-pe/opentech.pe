@@ -36,7 +36,7 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Bugs
 
-For bugs report them [here](https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C+manuelrojasc&labels=bug&template=bug_report.md&title=) and if you want to fix them send a PR after opening the issue.
+For bugs report them [here](https://github.com/opentech-pe/opentech.pe/issues/new?labels=bug&template=bug_report.md) and if you want to fix them send a PR after opening the issue.
 
 ## Code of conduct to contributing
 
