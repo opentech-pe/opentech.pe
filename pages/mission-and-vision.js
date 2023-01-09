@@ -110,39 +110,35 @@ export default function MissionAndVision() {
                 href="https://github.com/opentech-pe/opentech.pe/issues/new?template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla"
                 target="_blank"
               >
-                {" "}
-                plantila
+                &nbsp;plantila
               </a>
-              , o puedes escribirnos al{" "}
+              , o puedes escribirnos al
               <a
                 className="text-blue-500"
                 href="mailto:loloy.laurencio@gmail.com"
                 target="_blank"
               >
-                {" "}
-                correo
-              </a>{" "}
-              para seguir conversando.
+                &nbsp;correo
+              </a>
+              &nbsp;para seguir conversando.
             </span>
             Nuestro equipo y más personas se encuentran en Discord, y es ahí
             donde compartimos blogs, cursos, artículos y muchas cosas mas, unete
-            a nuestro{" "}
+            a nuestro
             <a
               className="text-blue-500"
               href="https://discord.gg/qZ9zATH5sN"
               target="_blank"
             >
-              {" "}
-              discord
-            </a>{" "}
-            y a nuestro{" "}
+              &nbsp;discord
+            </a>
+            &nbsp;y a nuestro
             <a
               className="text-blue-500"
               href="https://www.facebook.com/OpenTechTM"
               target="_blank"
             >
-              {" "}
-              facebook
+              &nbsp;facebook
             </a>
             , tratamos de estar siempre conectados. Saludos y un gran abrazo
             para todo aquel que lo necesite!
