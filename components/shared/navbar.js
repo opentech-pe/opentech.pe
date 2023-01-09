@@ -19,13 +19,19 @@ export default function Navbar() {
           </li>
         </ul>
         <ul className="flex items-center overflow-auto text-xs">
-          <li className="text-center w-40 mr-6 md:m-0">
+          <li className="text-center w-40 mr-2 sm:mr-6 md:m-0">
+            <Link href="/mission-and-vision">
+              <a title="Misión y visión">Misión y visión</a>
+            </Link>
+          </li>
+          <li className="text-center w-40 mr-2 sm:mr-6 md:m-0">
             <Link href="/previous-events">
               <a title="Eventos anteriores">Eventos anteriores</a>
             </Link>
           </li>
           <li className="flex justify-center w-40">
             <a
+              title="Github"
               href="https://github.com/opentech-pe"
               className="flex items-center"
               target="_blank"
@@ -34,7 +40,7 @@ export default function Navbar() {
               <img
                 src="/assets/img/github.gif"
                 alt="github"
-                className="mr-2 h-8 w-8"
+                className="mr-1 sm:mr-2 h-8 w-8"
               />
               <span>Github</span>
             </a>
