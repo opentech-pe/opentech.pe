@@ -103,11 +103,49 @@ export default function MissionAndVision() {
             talentosas, quizás con algún nuevo theme para su VSCode quien sabe y
             usan algo distinto al VSCode, que importa!
             <span className="block my-4 md:my-5">
-              Si te animas a dar una charla puedes proponer una desde este enlace,
-              que te redireccionará al github donde tendrás un template, o puedes
-              escribirnos al correo para seguir conversando.
+              Si te animas a dar una charla puedes proponer una desde este
+              enlace, que te redireccionará al github donde tendrás una
+              <a
+                className="text-blue-500"
+                href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jhonfitzgerald%2C+paulotijero%2C&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla+.+.+."
+                target="_blank"
+              >
+                {" "}
+                plantila
+              </a>
+              , o puedes escribirnos al{" "}
+              <a
+                className="text-blue-500"
+                href="mailto:loloy.laurencio@gmail.com"
+                target="_blank"
+              >
+                {" "}
+                correo
+              </a>{" "}
+              para seguir conversando.
             </span>
-            Nuestro equipo y más personas se encuentran en Discord, y es ahí donde compartimos blogs, cursos, artículos y muchas cosas mas, unete a nuestro discord y a nuestro facebook, tratamos de estar siempre  conectados. Saludos y un gran abrazo para todo aquel que lo necesite!
+            Nuestro equipo y más personas se encuentran en Discord, y es ahí
+            donde compartimos blogs, cursos, artículos y muchas cosas mas, unete
+            a nuestro{" "}
+            <a
+              className="text-blue-500"
+              href="https://discord.gg/qZ9zATH5sN"
+              target="_blank"
+            >
+              {" "}
+              discord
+            </a>{" "}
+            y a nuestro{" "}
+            <a
+              className="text-blue-500"
+              href="https://www.facebook.com/OpenTechTM"
+              target="_blank"
+            >
+              {" "}
+              facebook
+            </a>
+            , tratamos de estar siempre conectados. Saludos y un gran abrazo
+            para todo aquel que lo necesite!
           </p>
         </section>
       </main>
