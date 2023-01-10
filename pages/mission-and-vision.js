@@ -107,7 +107,7 @@ export default function MissionAndVision() {
               enlace, que te redireccionará al github donde tendrás una
               <a
                 className="text-blue-500"
-                href="https://github.com/opentech-pe/opentech.pe/issues/new?template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla"
+                href="https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jimmyloloy98%2C+juancx21&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla"
                 target="_blank"
               >
                 &nbsp;plantila

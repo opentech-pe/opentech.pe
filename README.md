@@ -26,7 +26,7 @@ Como a tí, nos encanta la tecnología y hablar de ella, puedes formar parte de 
 
 Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de charlas. Si hay algo en lo que eres experto o estas aprendiendo, la mejor forma de aprender es enseñar.
 
-[Propón una charla](https://github.com/opentech-pe/opentech.pe/issues/new?template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla)
+[Propón una charla](https://github.com/opentech-pe/opentech.pe/issues/new?assignees=jimmyloloy98%2C+juancx21&labels=cfp&template=propuesta-de-charla.md&title=T%C3%ADtulo+de+tu+charla)
 
 _NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, no dudes en abrir un issue o contactarnos por Discord. Nos encanta ayudar_ :wink:
 
