@@ -39,7 +39,7 @@ export default function PreviousEvents() {
                             target="_blank"
                             rel="noopener noreferrer"
                             type="button"
-                            className="nes-btn is-error my-1 mx-2"
+                            className="nes-btn is-error my-1 ml-4"
                           >
                             <svg className="h-3 w-3">
                               <use xlinkHref="#slide" />
@@ -52,7 +52,7 @@ export default function PreviousEvents() {
                             target="_blank"
                             rel="noopener noreferrer"
                             type="button"
-                            className="nes-btn is-primary my-1 mx-2"
+                            className="nes-btn is-primary my-1 mx-4"
                           >
                             <svg className="h-3 w-3">
                               <use xlinkHref={`#${talk.social_network}`} />
@@ -71,7 +71,7 @@ export default function PreviousEvents() {
                   target="_blank"
                   rel="noopener noreferrer"
                   type="button"
-                  className="nes-btn is-primary my-1 mx-2"
+                  className="nes-btn is-primary my-1 ml-4"
                 >
                   <svg className="h-3 w-3">
                     <use xlinkHref="#camara" />
