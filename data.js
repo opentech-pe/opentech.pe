@@ -523,6 +523,8 @@ export const events = [
     talks: [
       {
         title: "UX/UI en la actualidad",
+        slide:
+          "https://docs.google.com/presentation/d/1xWeaFg8uIbVeW0bcsIsgFgn0rmURkYlu/edit?usp=sharing&ouid=109935891650592955728&rtpof=true&sd=true",
         speaker: "Milko Rivera",
         speaker_link:
           "https://www.linkedin.com/in/milko-fernando-rivera-sandoval-345111140",
