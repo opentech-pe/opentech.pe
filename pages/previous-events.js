@@ -79,7 +79,7 @@ export default function PreviousEvents() {
                 </a>
               </p>
             </div>
-          ))}
+          )).reverse()}
         </section>
       </main>
     </Layout>
