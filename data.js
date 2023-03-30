@@ -517,4 +517,50 @@ export const events = [
     ],
     photos: "https://fb.me/e/2cDioegzP",
   },
+  {
+    date: "Febrero 2023",
+    day: "21",
+    talks: [
+      {
+        title: "UX/UI en la actualidad",
+        speaker: "Milko Rivera",
+        speaker_link:
+          "https://www.linkedin.com/in/milko-fernando-rivera-sandoval-345111140",
+        social_network: "linkedin",
+      },
+      {
+        title: "Gestión de tareas con monday.com",
+        speaker: "Brian Pando",
+        speaker_link: "https://www.linkedin.com/in/brian-pando-575235121/",
+        social_network: "linkedin",
+      },
+    ],
+    photos:
+      "https://www.facebook.com/OpenTechTM/posts/pfbid0HjtpMhVZeDX3jgZWbm5gPtsbB3rZz2nbsa9qwkuCNEgRqSBWyTWrMfqvEVYReznel",
+  },
+  {
+    date: "Marzo 2023",
+    day: "21",
+    talks: [
+      {
+        title: "Mejora tu rol como Junior Dev",
+        slide:
+          "https://docs.google.com/presentation/d/1HwgAn2RllIHxbqMakFoUn94Ec6SYwUX7/edit?usp=sharing&ouid=109935891650592955728&rtpof=true&sd=true",
+        speaker: "George Sandoval",
+        speaker_link: "https://www.linkedin.com/in/george-sandoval-estela/",
+        social_network: "linkedin",
+      },
+      {
+        title: "Mutation Testing",
+        slide:
+          "https://docs.google.com/presentation/d/13xeS5-TLZRltasbflfLgB9yEUO2oYYm3/edit?usp=sharing&ouid=109935891650592955728&rtpof=true&sd=true",
+        speaker: "Alan David",
+        speaker_link:
+          "https://www.linkedin.com/in/alan-l%C3%B3pez-guti%C3%A9rrez-70562ba3/",
+        social_network: "linkedin",
+      },
+    ],
+    photos:
+      "https://www.facebook.com/photo/?fbid=234771815613717&set=a.197192542704978",
+  },
 ];
