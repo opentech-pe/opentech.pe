@@ -17,6 +17,7 @@
     "postcss": "^8",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-ga": "^3.3.1",
     "sass": "^1.26.10",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
   },
