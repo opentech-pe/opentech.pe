@@ -9,7 +9,8 @@
 
 Este repositorio contiene la página web pública de [OpenTech](https://opentech.pe), la comunidad de usuarios amantes de la tecnología en Tingo María, Perú :peru: .
 
-  > Nos juntamos una vez al mes, de 7:00 pm a 9:00 pm para escuchar charlas sobre tecnologías y temas relacionados. Estas reuniones son libres y gratuitas. No se requiere invitación o nivel de conocimiento.
+> [!NOTE]
+> Nos juntamos una vez al mes, de 7:00 pm a 9:00 pm para escuchar charlas sobre tecnologías y temas relacionados. Estas reuniones son libres y gratuitas. No se requiere invitación o nivel de conocimiento.
 
 Los canales oficiales para ponerte en contacto son:
 
