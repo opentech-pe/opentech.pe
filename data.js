@@ -565,4 +565,137 @@ export const events = [
     photos:
       "https://www.facebook.com/photo/?fbid=234771815613717&set=a.197192542704978",
   },
+  {
+    date: "Abril 2023",
+    day: "20",
+    talks: [
+      {
+        title: "Consejos para iniciar en el mundo de la seguridad informática",
+        slide: "",
+        speaker: "Gian Jara",
+        speaker_link:
+          "https://www.linkedin.com/in/gian-jairo-jara-venancio-748588164/",
+        social_network: "linkedin",
+      },
+      {
+        title:
+          "Alternativa para manejar la persistencia de datos en una aplicación móvil",
+        slide: "",
+        speaker: "Juan Campos",
+        speaker_link: "https://www.linkedin.com/in/juancx/",
+        social_network: "linkedin",
+      },
+      {
+        title: "Estándares para evitar el pantallazo de la muerte de Windows",
+        slide: "",
+        speaker: "Jhon Rupay",
+        speaker_link:
+          "https://www.linkedin.com/in/jhon-alejandro-rupay-eugenio-69bb30173/",
+        social_network: "linkedin",
+      },
+    ],
+    photos:
+      "https://www.facebook.com/photo.php?fbid=247405557683676&set=pb.100072427007903.-2207520000&type=3",
+  },
+  {
+    date: "Agosto 2023",
+    day: "18",
+    talks: [
+      {
+        title: "Design Tokens en Figma",
+        slide:
+          "https://www.figma.com/proto/2KeGUNe2bI42uqiXTwJCBH/Design-Tokens---OpenTech?type=design&node-id=31-15&t=JtTs9VCS95o3nH1e-1&scaling=contain&page-id=23%3A176&mode=design",
+        speaker: "Carlos Cardenas",
+        speaker_link:
+          "https://www.linkedin.com/in/carlos-c%C3%A1rdenas-00a139207/",
+        social_network: "linkedin",
+      },
+      {
+        title: "Mis primeros pasos con Svelte",
+        slide:
+          "https://docs.google.com/presentation/d/1r4UZj9HODAVFX-HajqOKONmD4xK9dPbz/edit?usp=drive_link&ouid=109935891650592955728&rtpof=true&sd=true",
+        speaker: "Dayana Horna",
+        speaker_link:
+          "https://www.linkedin.com/in/dayana-estefany-horna-cerna-a19a60244/",
+        social_network: "linkedin",
+      },
+      {
+        title: "¿Y que digo en la Sprint Retrospective?",
+        slide: "",
+        speaker: "George Sandoval",
+        speaker_link: "https://www.linkedin.com/in/george-sandoval-estela/",
+        social_network: "linkedin",
+      },
+    ],
+    photos: "https://fb.me/e/1jB0wp7Ql",
+  },
+  {
+    date: "Enero 2024",
+    day: "25",
+    talks: [
+      {
+        title: "Experiencias de mi primera chamba",
+        slide:
+          "https://docs.google.com/presentation/d/1PJrViBfKJZYrimykq_mbxkIK2x8Jk7Qp/edit?usp=drive_link&ouid=109935891650592955728&rtpof=true&sd=true",
+        speaker: "Ronaldo Delgado",
+        speaker_link:
+          "https://www.linkedin.com/in/ronaldo-andr%C3%A9-delgado-jara/",
+        social_network: "linkedin",
+      },
+      {
+        title: "Yo VS Sindrome del impostor",
+        slide:
+          "https://docs.google.com/presentation/d/1CWHWHdXp-pjn5pZ5befcHO111dZdmxhInf9nsv79p10/edit?usp=sharing",
+        speaker: "Jimmy Loloy",
+        speaker_link: "https://www.linkedin.com/in/jimmyloloy98/",
+        social_network: "linkedin",
+      },
+    ],
+    photos: "https://fb.me/e/4WzOMbAgy",
+  },
+  {
+    date: "Febrero 2024",
+    day: "22",
+    talks: [
+      {
+        title: "Extensiones IA - Transformando Ia experiencia universitaria",
+        slide:
+          "https://www.canva.com/design/DAF9Wzaap1w/mPA_MKRStmGJTNNt_ruE_Q/view?utm_content=DAF9Wzaap1w&utm_campaign=designshare&utm_medium=link&utm_source=viewer ",
+        speaker: "Gloria Barrueta",
+        speaker_link: "",
+        social_network: "",
+      },
+      {
+        title: "Navegando a través del motor de Javascript",
+        slide:
+          "https://docs.google.com/presentation/d/1PVmrawW8HdHcduT7mF6CR9Zsyy9eNOGB/edit?usp=drive_link&ouid=109935891650592955728&rtpof=true&sd=true",
+        speaker: "Luis Gorpa",
+        speaker_link: "",
+        social_network: "",
+      },
+    ],
+    photos: "https://fb.me/e/9eEWjLTh1",
+  },
+  {
+    date: "Marzo 2024",
+    day: "14",
+    talks: [
+      {
+        title: "Google desde adentro - Anotaciones de una Googler",
+        slide: "",
+        speaker: "Fernanda Montes",
+        speaker_link: "https://www.linkedin.com/in/fermontesdeoca/",
+        social_network: "linkedin",
+      },
+      {
+        title: "Retos y experiencias en redes y seguridad",
+        slide: "",
+        speaker: "Brayan Pajuelo",
+        speaker_link:
+          "https://www.linkedin.com/in/brayan-pajuelo-martin-23ab31163/",
+        social_network: "linkedin",
+      },
+    ],
+    photos: "https://fb.me/e/1aNiBgixN",
+  },
 ];
