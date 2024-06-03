@@ -16,11 +16,11 @@ export default function Index() {
           <p>
             Bienvenido a la comunidad de usuarios apasionados por la tecnología
             en Tingo María, Perú. Como a tí, nos encanta la tecnología y hablar
-            de ella; nos reunimos el último martes de cada mes,
+            de ella; nos reunimos el <strong>último martes de cada mes</strong>,
             de 7:00 pm a 9:00 pm, para escuchar charlas sobre tecnología y temas
-            relacionados. Estas reuniones son gratuitas (siempre lo serán) y
-            todos son bienvenidos. No se requiere invitación, solo necesitas
-            curiosidad y muchas ganas de aprender.
+            relacionados. Estas reuniones son gratuitas <em>(siempre lo serán.)</em>
+            No se requiere invitación, solo necesitas curiosidad y muchas ganas
+            de aprender.
           </p>
           <div className="flex justify-center text-xl my-10">
             <Link href="https://calendar.google.com/calendar/u/0?cid=cmkwdnRzMnAxMW43MWFobHRtcnVzOWtyMGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
