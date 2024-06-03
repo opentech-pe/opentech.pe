@@ -698,4 +698,25 @@ export const events = [
     ],
     photos: "https://fb.me/e/1aNiBgixN",
   },
+  {
+    date: "Mayo 2024",
+    day: "30",
+    talks: [
+      {
+        title: "Experiencias como equipo de desarrollo",
+        slide: "https://docs.google.com/presentation/d/1R3j7fP6PFTLnfE-gV8pcqmVz-9azudOt/edit?usp=drive_link&ouid=109935891650592955728&rtpof=true&sd=true",
+        speaker: "IA+ Team",
+        speaker_link: "https://www.facebook.com/isc.unas",
+        social_network: "facebook",
+      },
+      {
+        title: "Serverless: Despliega código sin servidores y vive para contarlo",
+        slide: "https://gamma.app/docs/2rq4fxbgl6i4fza?following_id=ni17ghavxomxrmg&follow_on_start=true",
+        speaker: "Juan Campos",
+        speaker_link: "https://www.linkedin.com/in/juancx/",
+        social_network: "linkedin",
+      },
+    ],
+    photos: "https://fb.me/e/6UsdcMLKi",
+  },
 ];
