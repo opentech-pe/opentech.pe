@@ -704,19 +704,60 @@ export const events = [
     talks: [
       {
         title: "Experiencias como equipo de desarrollo",
-        slide: "https://docs.google.com/presentation/d/1R3j7fP6PFTLnfE-gV8pcqmVz-9azudOt/edit?usp=drive_link&ouid=109935891650592955728&rtpof=true&sd=true",
+        slide:
+          "https://docs.google.com/presentation/d/1R3j7fP6PFTLnfE-gV8pcqmVz-9azudOt/edit?usp=drive_link&ouid=109935891650592955728&rtpof=true&sd=true",
         speaker: "IA+ Team",
         speaker_link: "https://www.facebook.com/isc.unas",
         social_network: "facebook",
       },
       {
-        title: "Serverless: Despliega código sin servidores y vive para contarlo",
-        slide: "https://gamma.app/docs/2rq4fxbgl6i4fza?following_id=ni17ghavxomxrmg&follow_on_start=true",
+        title:
+          "Serverless: Despliega código sin servidores y vive para contarlo",
+        slide:
+          "https://gamma.app/docs/2rq4fxbgl6i4fza?following_id=ni17ghavxomxrmg&follow_on_start=true",
         speaker: "Juan Campos",
         speaker_link: "https://www.linkedin.com/in/juancx/",
         social_network: "linkedin",
       },
     ],
     photos: "https://fb.me/e/6UsdcMLKi",
+  },
+  {
+    date: "Octubre 2024",
+    day: "25",
+    talks: [
+      {
+        title: "Compartiendo mis experiencias laborales",
+        slide: "",
+        speaker: "Isai Ventura P.",
+        speaker_link: "https://www.linkedin.com/in/isaiventura/",
+        social_network: "linkedin",
+      },
+      {
+        title: "Compartiendo mis experiencias laborales",
+        slide: "",
+        speaker: "Juan Ricardo R.",
+        speaker_link: "https://www.linkedin.com/in/juanricardorc/",
+        social_network: "linkedin",
+      },
+      {
+        title:
+          "Un pixel a la vez: Creando interfaces perfectas con TailwindCSS",
+        slide: "",
+        speaker: "Carlos Cardenas",
+        speaker_link:
+          "https://www.linkedin.com/in/carlos-c%C3%A1rdenas-00a139207/",
+        social_network: "linkedin",
+      },
+      {
+        title: "Mi primer sitio sin código",
+        slide: "",
+        speaker: "Jimmy Loloy",
+        speaker_link:
+          "https://www.linkedin.com/in/JimmyLoloy98/",
+        social_network: "linkedin",
+      },
+    ],
+    photos: "",
   },
 ];
