@@ -19,9 +19,9 @@ Los canales oficiales para ponerte en contacto son:
 
 ## :earth_americas: Comunidad de Tecnología
 
-Como a tí, nos encanta la tecnología y hablar de ella, puedes formar parte de nuestra comunidad en Discord donde puedes encontrarnos todos los días para seguir hablando.
+Como a tí, nos encanta la tecnología y hablar de ella, puedes seguir los eventos de la comunidad en Facebook.
 
-[Únete a nuestro discord](https://discord.gg/vYPgXbwb)
+[Siguenos en Facebook](https://facebook.com/OpenTechTM)
 
 ## :nerd_face: Espacio Libre y Abierto
 
@@ -31,9 +31,11 @@ Somos una comunidad con ganas de aprender siempre abierta a nuevas propuestas de
 
 _NOTA: Si necesitas ayuda con este proceso porque eres nuevo con GitHub o git, tambien puedes contactarnos por correo. Nos encanta ayudar_ :wink:
 
-<!-- ### Sponsors
+### :gem: Sponsors
 
-¿Quieres que tu empresa u organización patrocine estos eventos? (Acá puedes ver cómo participar como sponsor)[link para recaudos]. -->
+¿Quieres que tu empresa u organización patrocine los eventos de la comunidad?
+
+[Auspiciar en Github](https://github.com/sponsors/opentech-pe)
 
 ## :scroll: Código de conducta
 
@@ -41,7 +43,7 @@ Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUC
 
 ## ✨ Contributors
 
-Gracias a estas increibles personas ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Gracias a estas increibles personas:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -60,4 +62,4 @@ Gracias a estas increibles personas ([emoji key](https://allcontributors.org/doc
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Este proyecto sigue la especificación de [all-contributors](https://github.com/all-contributors/all-contributors). ¡Contribuciones de cualquier tipo son bienvenidas!
+Este proyecto sigue la especificación de [all-contributors](https://github.com/all-contributors/all-contributors). ¡Todo tipo de contribuciones son bienvenidas!
