@@ -16,11 +16,10 @@ export default function Index() {
           <p>
             Bienvenido a la comunidad de usuarios apasionados por la tecnología
             en Tingo María, Perú. Como a tí, nos encanta la tecnología y hablar
-            de ella; nos reunimos el <strong>último martes de cada mes</strong>,
-            de 7:00 pm a 9:00 pm, para escuchar charlas sobre tecnología y temas
-            relacionados. Estas reuniones son gratuitas <em>(siempre lo serán.)</em>
-            No se requiere invitación, solo necesitas curiosidad y muchas ganas
-            de aprender.
+            de ella; nos reunimos <strong> una vez al mes</strong>, de 7:00 pm a
+            9:00 pm, para hablar sobre tecnología y temas relacionados. Estas
+            reuniones son gratuitas <em>(siempre lo serán.) </em>No se requiere
+            invitación, solo necesitas curiosidad y muchas ganas de aprender.
           </p>
           <div className="flex justify-center text-xl my-10">
             <Link href="https://calendar.google.com/calendar/u/0?cid=cmkwdnRzMnAxMW43MWFobHRtcnVzOWtyMGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
@@ -38,10 +37,9 @@ export default function Index() {
         <section>
           <h2 className="font-big mb-5 text-xl">Participa en la comunidad</h2>
           <p>
-            Lo ideal es que nos sigas a través de nuestro Facebook para
-            enterarte de nuestros meetups y actividades. Puedes también formar
-            parte de nuestra comunidad en Discord donde nos encontraras todos
-            los días para seguir hablando.
+            Síguenos a través del Facebook de la comunidad para enterarte de los
+            próximos eventos. También puedes contribuir con la comunidad en
+            Github, el código fuente de nuestro sitio web es Open Source. 🚀
           </p>
           <div className="flex flex-col md:flex-row justify-center text-xl my-10">
             <a
@@ -50,24 +48,25 @@ export default function Index() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Siguenos en Facebook
+              Seguir en Facebook
             </a>
             <a
               className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
-              href="https://discord.gg/qZ9zATH5sN"
+              href="https://github.com/opentech-pe/opentech.pe"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Únete al Discord
+              Contribuir en Github
             </a>
           </div>
         </section>
         <section>
           <h2 className="font-big mb-5 text-xl">Espacio libre y abierto</h2>
           <p>
-            Somos una comunidad con ganas de aprender, siempre abierta a nuevas
-            propuestas de charlas. Si hay algo en lo que eres experto o estas
-            aprendiendo, la mejor forma de aprender es enseñar.
+            Somos una comunidad con muchas ganas de aprender, siempre abierta a
+            nuevas propuestas de charlas. Tú tambien puedes compartir tus
+            conocimientos con nosotros, la mejor forma de seguir aprendiendo es
+            enseñar. 💎
           </p>
           <div className="flex justify-center text-xl my-10">
             <a
@@ -76,11 +75,11 @@ export default function Index() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Proponer una charla
+              Quiero dar una charla
             </a>
           </div>
         </section>
-        <section>
+        <section className="mb-10 md:mb-20">
           <h2 className="font-big mb-5 text-xl">¿Cómo nos puedes ayudar?</h2>
           <p>
             Nuestro principal objetivo es compartir conocimiento en tecnología y
@@ -90,36 +89,22 @@ export default function Index() {
           </p>
           <p>
             De igual manera, para llevar a cabo nuestros eventos, tenemos que
-            contar con un presupuesto que cubre el catering (gaseosa, bocaditos,
-            etc) para los asistentes, así como stickers, badges, señalética,
+            contar con un presupuesto que cubre el catering para los asistentes
+            (gaseosa, bocaditos, etc), así como stickers, badges, señalética,
             nombres de dominio, etc.
           </p>
           <p>
-            Así que estamos en busqueda de aliados que nos ayuden a cubrir estos
-            gastos, puedes convertirte en backer (personas) o sponsor
-            (organizaciones o empresas) contactándote con nosotros,{" "}
+            Por ello estamos en constante busqueda de empresas o personas que
+            compartan nuestra{" "}
+            <a className="text-blue-500" href="/mission-and-vision">
+              misión y visión
+            </a>
+            , conviertete en nuestro siguiente sponsor, contactándote con
+            nosotros,
             <a className="text-blue-500" href="mailto:hola@opentech.pe">
               ¡Envianos un correo!
             </a>
           </p>
-          <div className="flex flex-col md:flex-row justify-center text-xl my-10">
-            <Link href="/incomplete">
-              <button
-                type="button"
-                className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
-              >
-                Conoce a nuestros backers
-              </button>
-            </Link>
-            <Link href="/incomplete">
-              <button
-                type="button"
-                className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
-              >
-                Conoce a nuestros sponsors
-              </button>
-            </Link>
-          </div>
         </section>
       </main>
     </Layout>

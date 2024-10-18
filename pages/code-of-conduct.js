@@ -12,7 +12,7 @@ export default function CodeOfConduct() {
         <section>
           <p>
             Se requiere que todos los asistentes, ponentes, patrocinadores y
-            voluntarios de nuestro meetup <em>(sea presencial u online),</em>{" "}
+            voluntarios de los eventos <em>(sea presencial u online),</em>{" "}
             acepten el siguiente codigo de conducta. Los organizadores harán
             cumplir este código a lo largo del evento. Esperamos la colaboración
             de todos los participantes para ayudar a asegurar un ambiente seguro
@@ -28,7 +28,7 @@ export default function CodeOfConduct() {
             toleramos abusos de los participantes a la conferencia en ninguna de
             sus formas. El lenguaje e imágenes sexuales no son apropiados a
             ninguna sala del meetup, incluyendo charlas, talleres, fiestas,
-            twitter, facebook, Discord y otros medios online. Los participantes
+            twitter, facebook, Discord o cualquier otro medio. Los participantes
             del meetup que violen estas reglas pueden ser sancionados o
             expulsados de la misma, a discreción de los organizadores.
           </p>
