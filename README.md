@@ -21,7 +21,7 @@ Los canales oficiales para ponerte en contacto son:
 
 Como a tí, nos encanta la tecnología y hablar de ella, puedes seguir los eventos de la comunidad en Facebook.
 
-[Siguenos en Facebook](https://facebook.com/OpenTechTM)
+[Síguenos en Facebook](https://facebook.com/OpenTechTM)
 
 ## :nerd_face: Espacio Libre y Abierto
 
@@ -43,7 +43,7 @@ Nuestros eventos se rigen por el siguiente [Código de conducta](/CODE_OF_CONDUC
 
 ## ✨ Contributors
 
-Gracias a estas increibles personas:
+Gracias a estas increíbles personas:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
