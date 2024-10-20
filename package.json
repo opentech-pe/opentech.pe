@@ -1,6 +1,6 @@
 {
   "name": "v2.opentech.pe",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -26,5 +26,8 @@
     "all-contributors-cli": "^6.17.2",
     "autoprefixer": "^9",
     "next-sitemap": "^1.5.16"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
