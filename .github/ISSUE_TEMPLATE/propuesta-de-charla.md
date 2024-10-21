@@ -9,8 +9,9 @@ assignees: paulotijero, JimmyLoloy98
 
 > Nuestros eventos se rigen por el siguiente [Código de conducta](https://www.opentech.pe/code-of-conduct)
 >
-> Antes de proponer una charla, recuerda revisarlo para ver si estamos en la
-> misma onda 😊
+> Antes de proponer una charla, recuerda revisarlo para ver si estamos en la misma onda 😊
+> 
+> _Rellenar la plantilla en_ [G. Forms](https://forms.gle/Y8gp2rNH3zWJvCuM9)
 <!-- Antes de enviar tu propuestas no olvides verlo en Preview y cerciorarte que todo este 👌  -->
 
 ## ¿Qué tipo de presentación quieres hacer?
