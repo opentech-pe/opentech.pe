@@ -79,7 +79,7 @@ export default function Index() {
             </a>
           </div>
         </section>
-        <section className="mb-10 md:mb-20">
+        <section className="mb-10 md:mb-20 w-full">
           <h2 className="font-big mb-5 text-xl">¿Cómo nos puedes ayudar?</h2>
           <p>
             Nuestro principal objetivo es compartir conocimiento en tecnología y
@@ -105,6 +105,14 @@ export default function Index() {
               ¡Envianos un correo!
             </a>
           </p>
+
+          <iframe
+            src="https://github.com/sponsors/opentech-pe/button"
+            title="Sponsorship opentech.pe"
+            height="32"
+            width="114"
+            className="my-10 rounded-md mx-auto"
+          ></iframe>
         </section>
       </main>
     </Layout>
