@@ -757,6 +757,6 @@ export const events = [
         social_network: "linkedin",
       },
     ],
-    photos: "",
+    photos: "https://web.facebook.com/share/ntTbM8Scy4bhGjW8/",
   },
 ];
