@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "dotenv": "^9.0.0",
-    "next": "^12.3.1",
+    "next": "^14.2.15",
     "node-fetch": "^2.6.7",
     "postcss": "^8",
     "react": "^16.13.0",
@@ -22,9 +22,9 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@fullhuman/postcss-purgecss": "^6.0.0",
     "all-contributors-cli": "^6.17.2",
-    "autoprefixer": "^9",
+    "autoprefixer": "^10",
     "next-sitemap": "^1.5.16"
   },
   "engines": {
