@@ -25,7 +25,7 @@ export default function PreviousEvents() {
 
                 <details className="mb-5">
                   <summary>
-                    El día {event.day} tuvimos las siguientes charlas:
+                    El día {event.day} tuvimos las siguientes charlas: ⤵️
                   </summary>
                   <div className="ml-5">
                     <ul>
