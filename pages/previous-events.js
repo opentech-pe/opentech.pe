@@ -1,14 +1,16 @@
-import ErrorPage from 'next/error'
+import Layout from '../components/layout';
+import { event_api } from "../data.js";
 
-import { events } from '../data'
-import Layout from "../components/layout";
+export async function getStaticProps() {
+  const events = await event_api.list();
+  return {
+    props: {
+      events
+    },
+  };
+}
 
-export default function PreviousEvents() {
-
-  if (!events) {
-    return <ErrorPage statusCode={404} />;
-  }
-
+export default function PreviousEvents({ events }) {
   return (
     <Layout title="Eventos anteriores| OpenTech">
       <main className="px-3 lg:px-48 md:px-20">
@@ -59,9 +61,9 @@ export default function PreviousEvents() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 type="button"
-                                className="nes-btn is-primary my-1 mx-4"
+                                className="nes-btn is-primary my-1 mx-6"
                               >
-                                <svg className="h-3 w-3">
+                                <svg className="h-4 w-4">
                                   <use xlinkHref={`#${talk.social_network}`} />
                                 </svg>
                               </a>

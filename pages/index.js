@@ -52,19 +52,19 @@ export default function Index() {
             </a>
             <a
               className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
-              href="https://github.com/opentech-pe/opentech.pe"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Contribuir en Github
-            </a>
-            <a
-              className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
               href="https://www.linkedin.com/company/opentechtm/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Seguir en Linkedin
+            </a>
+            <a
+              className="nes-btn is-primary font-small mx-5 my-3 md:my-0"
+              href="https://github.com/opentech-pe/opentech.pe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Contribuir en Github
             </a>
           </div>
         </section>
